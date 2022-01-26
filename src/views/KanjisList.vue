@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, Ref } from 'vue'
 import { kanjiList } from '../store'
+import Backlink from '../components/Backlink.vue'
 
 const selectedKanji: Ref<number | null> = ref(null)
 
@@ -10,6 +11,8 @@ function selectKanji(kanjiId: number) {
 </script>
 
 <template>
+  <Backlink />
+
   <div class="kanji-item"
     v-for="kanjiItem in kanjiList"
     :key="kanjiItem.id"
