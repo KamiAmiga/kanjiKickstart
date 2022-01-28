@@ -4,27 +4,33 @@ import Home from './views/Home.vue'
 import KanjisList from './views/KanjisList.vue'
 import HiraganasTable from './views/HiraganasTable.vue'
 import KatakanasTable from './views/KatakanasTable.vue'
+import KanjiItem from './views/KanjiItem.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home,
   },
   {
     path: '/kanjis',
-    name: 'Kanjis',
+    name: 'kanjis',
     component: KanjisList,
   },
   {
     path: '/hiraganas',
-    name: 'Hiraganas',
+    name: 'hiraganas',
     component: HiraganasTable,
   },
   {
     path: '/katakanas',
-    name: 'Katakanas',
+    name: 'katakanas',
     component: KatakanasTable,
+  },
+  {
+    path: '/kanjis/:id',
+    name: 'kanjiItem',
+    component: KanjiItem,
   }
 ]
 

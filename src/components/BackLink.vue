@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <router-link to="/">Back to Home</router-link>
+  <router-link :to="{ name: 'home' }">Back to Home</router-link>
 </template>
 
 <style scoped>

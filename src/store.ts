@@ -11,7 +11,7 @@ interface KanjiExample {
   translation: string,
 }
 
-interface KanjiItem {
+export interface KanjiItem {
   id: number,
   kanji: string,
   onyomi: Array<string>,
