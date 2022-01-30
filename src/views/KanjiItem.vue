@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { computed, ComputedRef, defineComponent } from 'vue'
+import { computed, ComputedRef } from 'vue'
 import { kanjiList, KanjiItem } from '../store'
 
 import Backlink from '../components/Backlink.vue'
@@ -11,7 +11,7 @@ const kanjiInfos = computed(() => kanjiList.find(kanji => kanji.id === parseInt(
 </script>
 
 <template>
-  <Backlink />
+  <Backlink destination="Kanjis"/>
   
   <h1>Kanji item</h1>
 

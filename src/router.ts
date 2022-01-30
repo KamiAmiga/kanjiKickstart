@@ -9,28 +9,28 @@ import KanjiItem from './views/KanjiItem.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home,
+    name: 'Home',
+    component: Home
   },
   {
     path: '/kanjis',
-    name: 'kanjis',
-    component: KanjisList,
+    name: 'Kanjis',
+    component: KanjisList
   },
   {
     path: '/hiraganas',
-    name: 'hiraganas',
-    component: HiraganasTable,
+    name: 'HiraganasTable',
+    component: HiraganasTable
   },
   {
     path: '/katakanas',
-    name: 'katakanas',
-    component: KatakanasTable,
+    name: 'KatakanasTable',
+    component: KatakanasTable
   },
   {
     path: '/kanjis/:id',
-    name: 'kanjiItem',
-    component: KanjiItem,
+    name: 'Kanji',
+    component: KanjiItem
   }
 ]
 
