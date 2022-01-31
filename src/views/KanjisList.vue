@@ -10,7 +10,7 @@ import Backlink from '../components/Backlink.vue'
   <ul>
     <li v-for="kanjiItem in kanjiList" :key="kanjiItem.id">
       <router-link :to="{ name: 'Kanji', params: { id: kanjiItem.id }}">
-        {{ kanjiItem.kanji }}
+        <span lang="jp">{{ kanjiItem.kanji }}</span>
         {{ kanjiItem.translation }}
       </router-link>
     </li>
