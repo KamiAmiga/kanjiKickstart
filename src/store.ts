@@ -8,14 +8,19 @@ type KanjiList = Array<KanjiItem>
 interface KanjiExample {
   kanji: string,
   romaji: string,
-  translation: string,
+  translation: string
+}
+
+interface YomiReading {
+  kana: string,
+  romaji: string
 }
 
 export interface KanjiItem {
   id: number,
   kanji: string,
-  kunyomi: Array<string>,
-  onyomi: Array<string>,
+  kunyomi: Array<YomiReading>,
+  onyomi: Array<YomiReading>,
   translation: string,
   examples: Array<KanjiExample>
 }
@@ -25,11 +30,20 @@ export const kanjiList: KanjiList = reactive([
     id: 0,
     kanji: '一',
     kunyomi: [
-      'ひと',
+      {
+        kana: 'ひと',
+        romaji: 'hito'
+      }
     ],
     onyomi: [
-      'イチ',
-      'イツ',
+      {
+        kana:'イチ',
+        romaji: 'ichi'
+      },
+      {
+        kana:'イツ',
+        romaji: 'itsu'
+      }
     ],
     translation: 'un',
     examples: [
@@ -64,10 +78,16 @@ export const kanjiList: KanjiList = reactive([
     id: 1,
     kanji: '二',
     kunyomi: [
-      'ふた',
+      {
+        kana: 'ふた',
+        romaji: 'futa'
+      }
     ],
     onyomi: [
-      'ニ',
+      {
+        kana: 'ニ',
+        romaji: 'ni'
+      }
     ],
     translation: 'deux',
     examples: [
@@ -102,11 +122,16 @@ export const kanjiList: KanjiList = reactive([
     id: 2,
     kanji: '三',
     kunyomi: [
-      'み',
-      'みっ．',
+      {
+        kana: 'み',
+        romaji: 'mi'
+      }
     ],
     onyomi: [
-      'サン',
+      {
+        kana: 'サン',
+        romaji: 'san'
+      }
     ],
     translation: 'trois',
     examples: [
@@ -141,12 +166,20 @@ export const kanjiList: KanjiList = reactive([
     id: 3,
     kanji: '四',
     kunyomi: [
-      'よん',
-      'よ',
-      'よっ．',
+      {
+        kana: 'よん',
+        romaji: 'yon'
+      },
+      {
+        kana: 'よ',
+        romaji: 'yo'
+      }
     ],
     onyomi: [
-      'シ',
+      {
+        kana: 'シ',
+        romaji: 'shi'
+      }
     ],
     translation: 'quatre',
     examples: [
@@ -181,10 +214,16 @@ export const kanjiList: KanjiList = reactive([
     id: 4,
     kanji: '五',
     kunyomi: [
-      'いつ',
+      {
+        kana: 'いつ',
+        romaji: 'itsu'
+      }
     ],
     onyomi: [
-      'ゴ',
+      {
+        kana: 'ゴ',
+        romaji: 'go'
+      }
     ],
     translation: 'cinq',
     examples: [
@@ -219,13 +258,24 @@ export const kanjiList: KanjiList = reactive([
     id: 5,
     kanji: '六',
     kunyomi: [
-      'む',
-      'むっ．',
-      'むい'
+      {
+        kana: 'む',
+        romaji: 'mu'
+      },
+      {
+        kana: 'むい',
+        romaji: 'mui'
+      }
     ],
     onyomi: [
-      'ロク',
-      'リク'
+      {
+        kana: 'ロク',
+        romaji: 'roku'
+      },
+      {
+        kana: 'リク',
+        romaji: 'riku'
+      }
     ],
     translation: 'six',
     examples: [
@@ -260,11 +310,20 @@ export const kanjiList: KanjiList = reactive([
     id: 6,
     kanji: '七',
     kunyomi: [
-      'なな',
-      'なの',
+      {
+        kana: 'なな',
+        romaji: 'nana'
+      },
+      {
+        kana: 'なの',
+        romaji: 'nano'
+      }
     ],
     onyomi: [
-      'シチ',
+      {
+        kana: 'シチ',
+        romaji: 'shichi'
+      }
     ],
     translation: 'sept',
     examples: [
@@ -299,12 +358,20 @@ export const kanjiList: KanjiList = reactive([
     id: 7,
     kanji: '八',
     kunyomi: [
-      'や',
-      'やっ．',
-      'よう'
+      {
+        kana: 'や',
+        romaji: 'ya'
+      },
+      {
+        kana: 'よう',
+        romaji: 'yô'
+      }
     ],
     onyomi: [
-      'ハチ',
+      {
+        kana: 'ハチ',
+        romaji: 'hachi'
+      }
     ],
     translation: 'huit',
     examples: [
@@ -339,11 +406,20 @@ export const kanjiList: KanjiList = reactive([
     id: 8,
     kanji: '九',
     kunyomi: [
-      'ここの',
+      {
+        kana: 'ここの',
+        romaji: 'kokono'
+      }
     ],
     onyomi: [
-      'ク',
-      'キュウ',
+      {
+        kana: 'ク',
+        romaji: 'ku'
+      },
+      {
+        kana: 'キュウ',
+        romaji: 'kyû'
+      }
     ],
     translation: 'neuf',
     examples: [
@@ -378,11 +454,20 @@ export const kanjiList: KanjiList = reactive([
     id: 9,
     kanji: '十',
     kunyomi: [
-      'とお',
+      {
+        kana: 'とお',
+        romaji: 'tô'
+      }
     ],
     onyomi: [
-      'ジッ',
-      'ジュウ',
+      {
+        kana: 'ジ',
+        romaji: 'ji'
+      },
+      {
+        kana: 'ジュウ',
+        romaji: 'jû'
+      }
     ],
     translation: 'dix',
     examples: [
@@ -417,10 +502,16 @@ export const kanjiList: KanjiList = reactive([
     id: 10,
     kanji: '百',
     kunyomi: [
-      'もも',
+      {
+        kana: 'もも',
+        romaji: 'momo'
+      }
     ],
     onyomi: [
-      'ヒャク',
+      {
+        kana: 'ヒャク',
+        romaji: 'hyaku'
+      }
     ],
     translation: 'cent',
     examples: [
@@ -445,10 +536,16 @@ export const kanjiList: KanjiList = reactive([
     id: 11,
     kanji: '千',
     kunyomi: [
-      'ち',
+      {
+        kana: 'ち',
+        romaji: 'chi'
+      }
     ],
     onyomi: [
-      'セン',
+      {
+        kana: 'セン',
+        romaji: 'sen'
+      }
     ],
     translation: 'mille',
     examples: [
