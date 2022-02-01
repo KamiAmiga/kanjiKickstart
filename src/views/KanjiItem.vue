@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import { computed, ComputedRef } from 'vue'
-import { kanjiList, KanjiItem } from '../store'
+import { kanjiList } from '../store'
+import { KanjiItem } from '../store/kanji'
 
 import Backlink from '../components/Backlink.vue'
 import NextKanjiLink from '../components/NextKanjiLink.vue'
