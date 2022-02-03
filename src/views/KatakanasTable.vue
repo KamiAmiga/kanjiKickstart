@@ -11,13 +11,18 @@ const tableRows = kanaTableRows(katakanaTable)
 
 <template>
   <Backlink />
-  <h1>Hiragana table</h1>
+
+  <header class="wrapper wrapper--content-center">
+    <h1>Katakanas</h1>
+  </header>
   
-  <KanaTableVue
-    :kanaTable="katakanaTable"
-    :tableCols="tableCols"
-    :tableRows="tableRows">
-  </KanaTableVue>
+  <section class="wrapper">
+    <KanaTableVue
+      :kanaTable="katakanaTable"
+      :tableCols="tableCols"
+      :tableRows="tableRows">
+    </KanaTableVue>
+  </section>
 </template>
 
 <style scoped>

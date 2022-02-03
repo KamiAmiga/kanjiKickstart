@@ -16,47 +16,53 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
 <template>
   <Backlink destination="Kanjis"/>
   
-  <h1>
-    <span lang="jp">{{ kanjiInfos.kanji }}</span>
-    <span>{{ kanjiInfos.translation }}</span>
-  </h1>
-
-  <h2>Prononciations</h2>
-
-  <ul>
-    <li v-for="(onyomi, index) in kanjiInfos.onyomi"
-      :key="index">
-      <span lang="jp">{{ onyomi.kana }}</span>
-      <span>{{ onyomi.romaji }}</span>
-    </li>
-
-    <li v-for="(kunyomi, index) in kanjiInfos.kunyomi"
-      :key="index">
-      <span lang="jp">{{ kunyomi.kana }}</span>
-      <span>{{ kunyomi.romaji }}</span>
-    </li>
-  </ul>
-
-  <template v-if="kanjiInfos.examples.length">
-    <h2>Exemples</h2>
-
-    <dl>
-      <template v-for="(example, index) in kanjiInfos.examples"
-        :key="index">
-        <dt>
-          <div lang="jp">{{ example.kanji }}</div>
-          <div>{{ example.romaji }}</div>
-        </dt>
-        <dd>
-          {{ example.translation }}
-        </dd>
+  <div class="wrapper wrapper--col-wrap">
+    <header>    
+      <h1>
+        <span lang="jp">{{ kanjiInfos.kanji }}</span>
+        <span>{{ kanjiInfos.translation }}</span>
+      </h1>
+    </header>
+  
+    <section>
+      <h2>Prononciations</h2>
+    
+      <ul>
+        <li v-for="(onyomi, index) in kanjiInfos.onyomi"
+          :key="index">
+          <span lang="jp">{{ onyomi.kana }}</span>
+          <span>{{ onyomi.romaji }}</span>
+        </li>
+    
+        <li v-for="(kunyomi, index) in kanjiInfos.kunyomi"
+          :key="index">
+          <span lang="jp">{{ kunyomi.kana }}</span>
+          <span>{{ kunyomi.romaji }}</span>
+        </li>
+      </ul>
+    
+      <template v-if="kanjiInfos.examples.length">
+        <h2>Exemples</h2>
+    
+        <dl>
+          <template v-for="(example, index) in kanjiInfos.examples"
+            :key="index">
+            <dt>
+              <div lang="jp">{{ example.kanji }}</div>
+              <div>{{ example.romaji }}</div>
+            </dt>
+            <dd>
+              {{ example.translation }}
+            </dd>
+          </template>
+        </dl>
       </template>
-    </dl>
-  </template>
-
-  <template v-if="nextKanjiId">
-    <NextKanjiLink :kanjiId="nextKanjiId"/>
-  </template>
+    
+      <template v-if="nextKanjiId">
+        <NextKanjiLink :kanjiId="nextKanjiId"/>
+      </template>
+    </section>
+  </div>
 </template>
 
 <style scoped>

@@ -2,10 +2,12 @@
 </script>
 
 <template>
-  <h1>Kanji Kickstart</h1>
-  <p>Introduction à l'apprentissage des kanjis japonais.</p>
+  <header class="wrapper wrapper--content-center">
+    <h1>Kanji Kickstart</h1>
+    <p>Introduction à l'apprentissage des kanjis japonais.</p>
+  </header>
 
-  <nav>
+  <nav class="wrapper">
     <ul>
       <li>
         <router-link :to="{ name: 'Kanjis' }">Liste des kanjis</router-link>
