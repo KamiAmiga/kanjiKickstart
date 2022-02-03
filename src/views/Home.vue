@@ -14,7 +14,7 @@
         <router-link :to="{ name: 'HiraganasTable' }">Tableau des hiraganas</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'KatakanasTable' }">Tableau des kanjis</router-link>
+        <router-link :to="{ name: 'KatakanasTable' }">Tableau des katakanas</router-link>
       </li>
     </ul>
   </nav>

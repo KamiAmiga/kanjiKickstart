@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { kanjiList } from '../store'
+import { kanjiList } from '../store/kanji'
 
 import Backlink from '../components/Backlink.vue'
 </script>

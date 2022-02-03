@@ -1,18 +1,5 @@
 import { reactive } from 'vue'
-
-export interface YomiReading {
-  kana: string,
-  romaji: string
-}
-
-interface KanaCategory {
-  combined: boolean,
-  vowel?: string,
-  consonant?: string
-}
-
-interface KanaItem extends YomiReading, KanaCategory {}
-interface KanaTable extends Array<KanaItem>{}
+import { KanaTable, KanaItem } from '../types/kana'
 
 export const hiraganaTable: KanaTable = reactive([
   {
@@ -651,3 +638,23 @@ export const katakanaTable: KanaTable = reactive([
     consonant: 'n',
   }
 ])
+
+export function kanaTableCols(kanaTable: Array<KanaItem>) {
+  const vowels = new Array
+  kanaTable.forEach((kana) => {
+    if (kana.vowel && !vowels.includes(kana.vowel)) {
+      vowels.push(kana.vowel)
+    }
+  })
+  return vowels
+}
+
+export function kanaTableRows(kanaTable: Array<KanaItem>) {
+  const consonants = new Array
+  kanaTable.forEach((kana) => {
+    if (kana.consonant && !consonants.includes(kana.consonant)) {
+      consonants.push(kana.consonant)
+    }
+  })
+  return consonants
+}
