@@ -16,13 +16,17 @@
 * {
   padding: 0;
   margin: 0;
+  font-weight: 400;
+}
+
+html {
+  font-size: clamp(16px, 4vw, 24px);
 }
 
 body {
   min-height: 100vh;
   background-color: $default-base;
   font-family: 'Assistant', sans-serif;
-  font-size: clamp(16px, 4vw, 24px);
 
   &::after {
     content: '';
@@ -38,8 +42,12 @@ body {
   }
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
-  max-width: 1600px;
+  max-width: 60rem;
   padding: 0 1rem;
   margin: 0 auto;
 }
@@ -50,14 +58,14 @@ body {
   justify-content: stretch;
 
   &--content-center {
-    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
   &--col-wrap {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    column-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
   }
 }
 
