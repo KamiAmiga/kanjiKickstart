@@ -44,6 +44,7 @@ defineProps<Props>()
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 2;
   color: $secondary-base;
   text-decoration: none;
 

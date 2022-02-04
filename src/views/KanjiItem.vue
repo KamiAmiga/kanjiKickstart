@@ -72,13 +72,13 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
             </template>
           </dl>
         </template>
-      
-        <template v-if="nextKanjiId">
-          <NextKanjiLink :kanjiId="nextKanjiId"/>
-        </template>
       </section>
     </div>
   </div>
+
+  <template v-if="nextKanjiId">
+    <NextKanjiLink :kanjiId="nextKanjiId"/>
+  </template>
 </template>
 
 <style scoped lang="scss">
