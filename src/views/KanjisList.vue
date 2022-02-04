@@ -7,20 +7,22 @@ import Backlink from '../components/Backlink.vue'
 <template>
   <Backlink />
 
-  <header class="wrapper  wrapper--content-center">
-    <h1>Kanjis</h1>
-  </header>
+  <div class="container">
+    <header class="wrapper  wrapper--content-center">
+      <h1>Kanjis</h1>
+    </header>
 
-  <section class="wrapper">
-    <ul>
-      <li v-for="kanjiItem in kanjiList" :key="kanjiItem.id">
-        <router-link :to="{ name: 'Kanji', params: { id: kanjiItem.id }}">
-          <span lang="jp">{{ kanjiItem.kanji }}</span>
-          {{ kanjiItem.translation }}
-        </router-link>
-      </li>
-    </ul>
-  </section>
+    <section class="wrapper">
+      <ul>
+        <li v-for="kanjiItem in kanjiList" :key="kanjiItem.id">
+          <router-link :to="{ name: 'Kanji', params: { id: kanjiItem.id }}">
+            <span class="text-jp" lang="jp">{{ kanjiItem.kanji }}</span>
+            {{ kanjiItem.translation }}
+          </router-link>
+        </li>
+      </ul>
+    </section>
+  </div>
 </template>
 
 <style scoped>

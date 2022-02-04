@@ -12,17 +12,19 @@ const tableRows = kanaTableRows(katakanaTable)
 <template>
   <Backlink />
 
-  <header class="wrapper wrapper--content-center">
-    <h1>Katakanas</h1>
-  </header>
-  
-  <section class="wrapper">
-    <KanaTableVue
-      :kanaTable="katakanaTable"
-      :tableCols="tableCols"
-      :tableRows="tableRows">
-    </KanaTableVue>
-  </section>
+  <div class="container">    
+    <header class="wrapper wrapper--content-center">
+      <h1>Katakanas</h1>
+    </header>
+    
+    <section class="wrapper">
+      <KanaTableVue
+        :kanaTable="katakanaTable"
+        :tableCols="tableCols"
+        :tableRows="tableRows">
+      </KanaTableVue>
+    </section>
+  </div>
 </template>
 
 <style scoped>

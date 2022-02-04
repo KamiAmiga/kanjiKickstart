@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  kanjiId: number
+  kanjiId: number;
 }
 
 defineProps<Props>()

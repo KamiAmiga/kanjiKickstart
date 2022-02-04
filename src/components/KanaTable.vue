@@ -14,11 +14,12 @@ defineProps<Props>()
     <tr>
       <td v-for="(tableCol, index) in tableCols"
         :key="index">
-        <template v-for="(hiragana, index) in kanaTable"
+        <template v-for="(kana, index) in kanaTable"
           :key="index">
-          <div v-if="!hiragana.consonant && hiragana.vowel && hiragana.vowel === tableCol">
-            {{ hiragana.kana }}<br/>
-            {{ hiragana.romaji }}
+          <div v-if="!kana.consonant && kana.vowel && kana.vowel === tableCol"
+            lang="jp">
+            <div class="text-jp">{{ kana.kana }}</div>
+            {{ kana.romaji }}
           </div>
         </template>
       </td>
@@ -28,11 +29,12 @@ defineProps<Props>()
       :key="index">
       <td v-for="(tableCol, index) in tableCols"
         :key="index">
-        <template v-for="(hiragana, index) in kanaTable"
+        <template v-for="(kana, index) in kanaTable"
           :key="index">
-          <div v-if="hiragana.vowel === tableCol && hiragana.consonant === tableRow">
-            {{ hiragana.kana }}<br/>
-            {{ hiragana.romaji }}
+          <div v-if="kana.vowel === tableCol && kana.consonant === tableRow"
+            lang="jp">
+            <div class="text-jp">{{ kana.kana }}</div>
+            {{ kana.romaji }}
           </div>
         </template>
       </td>
@@ -40,11 +42,12 @@ defineProps<Props>()
 
     <tr>
       <td>
-        <template v-for="(hiragana, index) in kanaTable"
+        <template v-for="(kana, index) in kanaTable"
           :key="index">
-          <div v-if="hiragana.consonant && !hiragana.vowel">
-            {{ hiragana.kana }}<br/>
-            {{ hiragana.romaji }}
+          <div v-if="kana.consonant && !kana.vowel"
+            lang="jp">
+            <div class="text-jp">{{ kana.kana }}</div>
+            {{ kana.romaji }}
           </div>
         </template>
       </td>

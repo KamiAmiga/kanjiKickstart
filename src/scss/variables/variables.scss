@@ -1,0 +1,31 @@
+// Colors
+$primary-base: #B31603;
+$primary-light: #CA4400;
+
+$secondary-base: #95275B;
+$secondary-light: #EAAFD6;
+
+$default-base: #EBEFF3;
+$default-light: #F2E8ED;
+$default-dark: #BAC7D5;
+$default-darker: #181A41;
+$default-lightest: #FFF;
+$default-darkest: #000;
+
+
+// Fonts
+$font-family-base: 'Assistant', 'Noto Sans', 'Segoe UI', sans-serif;
+$font-family-jp: 'Noto Serif JP', sans-serif;
+
+$font-size-base: 1rem;
+$font-size-jp-base: 1.25rem;
+$font-size-title: 2.5rem;
+
+$font-weight-base: 400;
+$font-weight-interactive: 600;
+
+$font-color: $default-darkest;
+$font-color-reverse: $default-lightest;
+$font-color-accented: $secondary-base;
+
+$line-height-jp: 1;
