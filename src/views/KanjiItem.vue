@@ -18,7 +18,7 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
   <BackLink destination="Kanjis"/>
   
   <div class="container">
-    <div class="wrapper wrapper--2-cols kanji-item">
+    <div class="kanji-item wrapper wrapper--2-cols">
       <header>    
         <h1 class="wrapper wrapper--content-center">
           <CardWrapper type="outer">

@@ -65,6 +65,10 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap: 2rem;
   }
+
+  &--last {
+    margin-bottom: 3rem;
+  }
 }
 
 // Typography
@@ -81,5 +85,10 @@ a {
   font-family: $font-family-jp;
   font-size: $font-size-jp-base;
   line-height: $line-height-jp;
+}
+
+.top-page-title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 </style>

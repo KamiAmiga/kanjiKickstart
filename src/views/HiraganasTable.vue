@@ -14,10 +14,10 @@ const tableRows = kanaTableRows(hiraganaTable)
 
   <div class="container">
     <header class="wrapper wrapper--content-center">
-      <h1>Hiraganas</h1>
+      <h1 class="top-page-title">Hiraganas</h1>
     </header>
     
-    <section class="wrapper">
+    <section class="wrapper wrapper--last">
       <KanaTableVue
         :kanaTable="hiraganaTable"
         :tableCols="tableCols"
@@ -26,6 +26,3 @@ const tableRows = kanaTableRows(hiraganaTable)
     </section>
   </div>
 </template>
-
-<style scoped>
-</style>

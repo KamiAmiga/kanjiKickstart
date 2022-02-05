@@ -9,11 +9,11 @@ import CardWrapper from '../components/CardWrapper.vue'
   <BackLink />
 
   <div class="container">
-    <header class="kanjis-list-title wrapper wrapper--content-center">
-      <h1>Kanjis</h1>
+    <header class="top-page-title wrapper wrapper--content-center">
+      <h1 class="top-page-title">Kanjis</h1>
     </header>
 
-    <section class="wrapper">
+    <section class="wrapper wrapper--last">
       <ul class="kanjis-list">
         <CardWrapper v-for="kanjiItem in kanjiList" :key="kanjiItem.id"
           tag="li">
@@ -38,11 +38,6 @@ import CardWrapper from '../components/CardWrapper.vue'
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   gap: 1rem;
-
-  &-title {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
 
   &__item {
     display: flex;

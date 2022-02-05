@@ -14,10 +14,10 @@ const tableRows = kanaTableRows(katakanaTable)
 
   <div class="container">    
     <header class="wrapper wrapper--content-center">
-      <h1>Katakanas</h1>
+      <h1 class="top-page-title">Katakanas</h1>
     </header>
     
-    <section class="wrapper">
+    <section class="wrapper wrapper--last">
       <KanaTableVue
         :kanaTable="katakanaTable"
         :tableCols="tableCols"
@@ -26,6 +26,3 @@ const tableRows = kanaTableRows(katakanaTable)
     </section>
   </div>
 </template>
-
-<style scoped>
-</style>

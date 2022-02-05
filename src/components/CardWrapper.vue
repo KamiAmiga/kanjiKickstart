@@ -79,7 +79,12 @@ defineProps<Props>()
         left: 50%;
         z-index: -1;
         opacity: .6;
-        background: repeating-linear-gradient(to right, $default-dark, $default-dark .4rem, transparent .4rem, transparent 1rem);
+        background: repeating-linear-gradient(
+          to right,
+          $default-dark,
+          $default-dark .4rem,
+          transparent .4rem,
+          transparent 1rem);
         transform: translate(-50%, -50%);
       }
     }
