@@ -31,6 +31,16 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
 
 // Grid
 .container {

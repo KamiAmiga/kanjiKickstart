@@ -4,8 +4,9 @@ import { computed, ComputedRef } from 'vue'
 import { kanjiList } from '../store/kanji'
 import { KanjiItem } from '../types/kanji'
 
-import Backlink from '../components/Backlink.vue'
+import BackLink from '../components/BackLink.vue'
 import NextKanjiLink from '../components/NextKanjiLink.vue'
+import CardWrapper from '../components/CardWrapper.vue'
 
 const route = useRoute();
 const kanjiId = computed(() => route.params.id) as ComputedRef<string>
@@ -14,17 +15,16 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
 </script>
 
 <template>
-  <Backlink destination="Kanjis"/>
+  <BackLink destination="Kanjis"/>
   
   <div class="container">
     <div class="wrapper wrapper--2-cols kanji-item">
       <header>    
         <h1 class="wrapper wrapper--content-center">
-          <div class="card card--outer">
-            <div class="card__content">
-              <span class="text-jp" lang="jp">{{ kanjiInfos.kanji }}</span>
-            </div>
-          </div>
+          <CardWrapper type="outer">
+            <span class="kanji-item__kanji text-jp" lang="jp">{{ kanjiInfos.kanji }}</span>
+          </CardWrapper>
+          
           <span class="kanji-item__name">{{ kanjiInfos.translation }}</span>
         </h1>
       </header>
@@ -83,7 +83,11 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
 
 <style scoped lang="scss">
 .kanji-item {
-  padding-top: 1rem;
+  margin-top: 1rem;
+
+  &__kanji {
+    font-size: 60%;
+  }
 
   &__name {
     margin-top: 1rem;
@@ -112,60 +116,6 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
         }
       }
     }
-  }
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 14rem;
-  height: 14rem;
-
-  &--outer {
-    border-radius: 1rem;
-    box-shadow: .5rem .5rem 1.5rem fade-out($default-darker, 0.8);
-    background: radial-gradient(
-      circle farthest-side at -10% -10%,
-      $default-light 0%,
-      $default-base 200%);
-  }
-  
-  &__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 13rem;
-    height: 13rem;
-    position: relative;
-    z-index: 0;
-    background-color: $default-lightest;
-    border-radius: .5rem;
-    box-shadow: inset .1rem .1rem .4rem fade-out($default-darker, 0.76);
-
-    &::before,
-    &::after {
-      content: "";
-      width: 100%;
-      height: 1px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      z-index: -1;
-      opacity: .6;
-      background: repeating-linear-gradient(to right, $default-dark, $default-dark .4rem, transparent .4rem, transparent 1rem);
-      transform: translate(-50%, -50%);
-    }
-
-    &::after {
-      transform: translate(-50%, -50%) rotate(90deg);
-    }
-  }
-
-  [lang="jp"] {
-    font-size: 6rem;
   }
 }
 </style>

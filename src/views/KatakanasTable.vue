@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { kanaTableCols, kanaTableRows, katakanaTable } from '../store/kana'
 
-import Backlink from '../components/Backlink.vue'
+import BackLink from '../components/BackLink.vue'
 import KanaTableVue from '../components/KanaTable.vue';
 
 const tableCols = kanaTableCols(katakanaTable)
@@ -10,7 +10,7 @@ const tableRows = kanaTableRows(katakanaTable)
 </script>
 
 <template>
-  <Backlink />
+  <BackLink />
 
   <div class="container">    
     <header class="wrapper wrapper--content-center">

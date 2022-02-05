@@ -9,31 +9,33 @@ defineProps<Props>()
 </script>
 
 <template>
-  <router-link v-if="destination === 'Kanjis'"
-    :to="{ name: destination }"
-    class="back-link back-link--kanji">
-    <div class="back-link__container container">
-      <span class="back-link__icon">
-        <Arrow />
-      </span>
-      <span class="back-link__text text-interactive">
-        Retour à la liste des kanjis
-      </span>
-    </div>
-  </router-link>
+  <template v-if="destination === 'Kanjis'">
+    <router-link :to="{ name: 'Kanjis' }"
+      class="back-link back-link--kanji">
+      <div class="back-link__container container">
+        <span class="back-link__icon">
+          <Arrow />
+        </span>
+        <span class="back-link__text text-interactive">
+          Retour à la liste des kanjis
+        </span>
+      </div>
+    </router-link>
+  </template>
 
-  <router-link v-else
-    :to="{ name: 'Home' }"
-    class="back-link">
-    <div class="back-link__container container">
-      <span class="back-link__icon">
-        <Arrow />
-      </span>
-      <span class="back-link__text text-interactive">
-        Retour à l'accueil
-      </span>
-    </div>
-  </router-link>
+  <template v-else>
+    <router-link :to="{ name: 'Home' }"
+      class="back-link">
+      <div class="back-link__container container">
+        <span class="back-link__icon">
+          <Arrow />
+        </span>
+        <span class="back-link__text text-interactive">
+          Retour à l'accueil
+        </span>
+      </div>
+    </router-link>
+  </template>
 </template>
 
 <style scoped lang="scss">
@@ -47,12 +49,6 @@ defineProps<Props>()
   z-index: 2;
   color: $secondary-base;
   text-decoration: none;
-
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: none;
-  }
 
   &__container {
     display: flex;

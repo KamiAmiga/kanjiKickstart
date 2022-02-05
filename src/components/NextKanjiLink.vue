@@ -32,15 +32,8 @@ defineProps<Props>()
     $primary-light 0,
     $primary-base 100%);
   color: $font-color-reverse;
-  text-decoration: none;
   border-radius: 2rem;
   box-shadow: .25rem .25rem .5rem fade-out($primary-light, .32);
-
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: none;
-  }
 
   &__icon {
     width: 1rem;
