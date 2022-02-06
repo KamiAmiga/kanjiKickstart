@@ -1,6 +1,10 @@
 <template>
   <main>
-    <router-view></router-view>
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </main>
 </template>
 
@@ -18,9 +22,10 @@ html {
 
 body {
   min-height: 100vh;
+  background: $secondary-lightest;
   background: radial-gradient(
     circle farthest-side at 10% 20%,
-    $default-light 0%,
+    $secondary-lightest 0%,
     $default-base 80%);
   font-family: $font-family-base;
   font-size: $font-size-base;
@@ -90,5 +95,16 @@ a {
 .top-page-title {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+// Page transitions
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .32s ease-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

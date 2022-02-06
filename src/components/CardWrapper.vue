@@ -3,6 +3,7 @@
 interface Props {
   type?: string;
   tag?: string;
+  interactive?: boolean;
 }
 
 defineProps<Props>()
@@ -10,7 +11,9 @@ defineProps<Props>()
 
 <template>
   <component :is="tag ? tag : 'div'"
-    :class="[ type ? `card--${type}` : '']"
+    :class="[ 
+      type ? `card--${type}` : '',
+      interactive ? 'card--interactive' : '']"
     class="card">
     <div class="card__content">
       <slot></slot>
@@ -31,19 +34,20 @@ defineProps<Props>()
   }
 
   &--outer {
+    @include gradient(
+      $position: -50% -50%,
+      $end-color-position: 200%
+    );
+    @include shadow();
     justify-content: center;
     align-items: center;
     width: 14rem;
     height: 14rem;
     border-radius: 1rem;
-    box-shadow: .5rem .5rem 1.5rem fade-out($default-darker, 0.8);
-    background: radial-gradient(
-      circle farthest-side at -10% -10%,
-      $default-light 0%,
-      $default-base 200%);
   }
   
   &__content {
+    @include shadow($levels: 4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +57,26 @@ defineProps<Props>()
     z-index: 0;
     background-color: $default-lightest;
     border-radius: .5rem;
-    box-shadow: .125rem .125rem .25rem fade-out($default-darker, 0.8);
+
+    #{$self}--interactive & {
+      transition: background-color .32s ease-in-out,
+      box-shadow .32s ease-in-out;
+    }
+
+    #{$self}--interactive:hover &,
+    #{$self}--interactive:focus &,
+    #{$self}--interactive:active & {
+      @include shadow($levels: 3, $color: $primary-base);
+      background-color: scale-color($primary-light, $lightness: 85%);
+    }
 
     #{$self}--outer &,
     #{$self}--inner & {
-      box-shadow: inset .1rem .1rem .4rem fade-out($default-darker, 0.76);
+      @include shadow(
+        $inset: true,
+        $color: mix($default-darker, $secondary-base),
+        $levels: 3
+      );
     }
 
     #{$self}--outer & {

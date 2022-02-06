@@ -10,19 +10,21 @@ const tableRows = kanaTableRows(hiraganaTable)
 </script>
 
 <template>
-  <BackLink />
-
-  <div class="container">
-    <header class="wrapper wrapper--content-center">
-      <h1 class="top-page-title">Hiraganas</h1>
-    </header>
-    
-    <section class="wrapper wrapper--last">
-      <KanaTableVue
-        :kanaTable="hiraganaTable"
-        :tableCols="tableCols"
-        :tableRows="tableRows">
-      </KanaTableVue>
-    </section>
+  <div>
+    <BackLink />
+  
+    <div class="container">
+      <header class="wrapper wrapper--content-center">
+        <h1 class="top-page-title">Hiraganas</h1>
+      </header>
+      
+      <section class="wrapper wrapper--last">
+        <KanaTableVue
+          :kanaTable="hiraganaTable"
+          :tableCols="tableCols"
+          :tableRows="tableRows">
+        </KanaTableVue>
+      </section>
+    </div>
   </div>
 </template>

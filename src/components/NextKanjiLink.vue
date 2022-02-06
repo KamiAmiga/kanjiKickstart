@@ -20,6 +20,9 @@ defineProps<Props>()
 
 <style scoped lang="scss">
 .next-kanji-link {
+  $self: &;
+
+  @include shadow($levels: 6, $color: $primary-base);
   display: flex;
   align-items: center;
   padding: .5rem 1rem;
@@ -33,13 +36,26 @@ defineProps<Props>()
     $primary-base 100%);
   color: $font-color-reverse;
   border-radius: 2rem;
-  box-shadow: .25rem .25rem .5rem fade-out($primary-light, .32);
+  transition: box-shadow .32s ease-in-out;
 
   &__icon {
     width: 1rem;
     margin-left: 1.25rem;
     stroke: $font-color-reverse;
     transform: rotate(180deg);
+    transition: transform .32s cubic-bezier(.4, -.8, .5, 1);
+
+    #{$self}:hover &,
+    #{$self}:focus &,
+    #{$self}:active & {
+      transform: rotate(180deg) translateX(.25rem);
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    @include shadow($levels: 4, $color: $primary-base);
   }
 }
 </style>

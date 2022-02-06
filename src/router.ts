@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from './views/Home.vue'
+import HomePage from './views/HomePage.vue'
 import KanjisList from './views/KanjisList.vue'
 import HiraganasTable from './views/HiraganasTable.vue'
 import KatakanasTable from './views/KatakanasTable.vue'
@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: HomePage
   },
   {
     path: '/kanjis',
@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/kanjis/:id',
     name: 'Kanji',
-    component: KanjiItem
+    component: KanjiItem,
   }
 ]
 
