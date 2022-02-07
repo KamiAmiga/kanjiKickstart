@@ -22,6 +22,8 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
+
 .card {
   $self: &;
 
@@ -59,8 +61,8 @@ defineProps<Props>()
     border-radius: .5rem;
 
     #{$self}--interactive & {
-      transition: background-color .32s ease-in-out,
-      box-shadow .32s ease-in-out;
+      transition: background-color $transition-properties-base,
+      box-shadow $transition-properties-base;
     }
 
     #{$self}--interactive:hover &,

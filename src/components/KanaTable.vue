@@ -65,6 +65,8 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
+
 .kana-table {
   flex-grow: 1;
   border: none;

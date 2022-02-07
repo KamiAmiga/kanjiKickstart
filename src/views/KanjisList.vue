@@ -37,6 +37,7 @@ import CardWrapper from '../components/CardWrapper.vue'
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
 .kanjis-list {
   $self: &;
 
@@ -55,7 +56,7 @@ import CardWrapper from '../components/CardWrapper.vue'
       padding: .5rem;
       font-size: $font-size-title;
       transform: scale(1);
-      transition: transform .32s cubic-bezier(.4, -.8, .5, 1);
+      transition: transform $transition-duration-base $transition-timing-function-bounce;
 
       #{$self}__item:hover &,
       #{$self}__item:focus &,

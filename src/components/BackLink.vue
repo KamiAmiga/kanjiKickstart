@@ -39,6 +39,8 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
+
 .back-link {
   display: block;
   width: 100%;

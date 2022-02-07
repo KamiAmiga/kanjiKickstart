@@ -19,6 +19,8 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
+
 .next-kanji-link {
   $self: &;
 
@@ -36,14 +38,14 @@ defineProps<Props>()
     $primary-base 100%);
   color: $font-color-reverse;
   border-radius: 2rem;
-  transition: box-shadow .32s ease-in-out;
+  transition: box-shadow $transition-properties-base;
 
   &__icon {
     width: 1rem;
     margin-left: 1.25rem;
     stroke: $font-color-reverse;
     transform: rotate(180deg);
-    transition: transform .32s cubic-bezier(.4, -.8, .5, 1);
+    transition: transform $transition-duration-base $transition-timing-function-bounce;
 
     #{$self}:hover &,
     #{$self}:focus &,

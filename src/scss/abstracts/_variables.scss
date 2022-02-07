@@ -29,3 +29,10 @@ $font-color-reverse: $default-lightest;
 $font-color-accented: $secondary-base;
 
 $line-height-jp: 1;
+
+
+// Animations
+$transition-duration-base: .32s;
+$transition-timing-function-base: ease-out;
+$transition-timing-function-bounce: cubic-bezier(.4, -.8, .5, 1);
+$transition-properties-base: $transition-duration-base $transition-timing-function-base;

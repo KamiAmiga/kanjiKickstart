@@ -12,12 +12,5 @@ export default defineConfig({
       'https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Noto+Serif+JP&display=swap'
     ]),
     svgLoader()
-  ],
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData:  `@import "./src/scss/variables/variables.scss"; @import "./src/scss/variables/mixins.scss";`
-      }
-    }
-  }
+  ]
 })

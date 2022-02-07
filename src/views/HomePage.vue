@@ -45,6 +45,8 @@ import CardWrapper from '../components/CardWrapper.vue'
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
+
 .home-page {
   $self: &;
 
@@ -107,7 +109,7 @@ import CardWrapper from '../components/CardWrapper.vue'
           width: 1rem;
           stroke: $secondary-base;
           transform: rotate(180deg);
-          transition: transform .32s cubic-bezier(.4, -.8, .5, 1);
+          transition: transform $transition-duration-base $transition-timing-function-bounce;
 
           #{$self}__nav__list__link:hover &,
           #{$self}__nav__list__link:focus &,

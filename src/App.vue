@@ -9,6 +9,8 @@
 </template>
 
 <style lang="scss">
+@use './scss/abstracts' as *;
+
 // Base
 * {
   padding: 0;
@@ -100,7 +102,7 @@ a {
 // Page transitions
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity .32s ease-out;
+  transition: opacity $transition-properties-base;
 }
 
 .fade-enter-from,

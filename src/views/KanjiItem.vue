@@ -84,6 +84,7 @@ const nextKanjiId = computed(() => kanjiList.find(kanji => kanji.id === parseInt
 </template>
 
 <style scoped lang="scss">
+@use '../scss/abstracts' as *;
 .kanji-item {
   margin-top: 1rem;
 
