@@ -42,7 +42,7 @@ import CardWrapper from '../components/CardWrapper.vue'
   $self: &;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
   gap: 1rem;
 
   &__item {
