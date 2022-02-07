@@ -67,16 +67,15 @@ import CardWrapper from '../components/CardWrapper.vue'
 
     &::before {
       content: "漢字";
-      font-family: $font-family-jp;
-      color: scale-color($secondary-base, $lightness: 85%);
-      font-size: 8rem;
       position: absolute;
       top: 50%;
       left: 50%;
       z-index: -1;
+      opacity: .1;
+      font-family: $font-family-jp;
+      color: $secondary-base;
+      font-size: 8rem;
       transform: translate(-50%, -50%);
-      text-shadow: 0 0 .05em fade-out($default-lightest, .5),
-        0 0 1em $default-lightest;
     }
 
     &__title {
