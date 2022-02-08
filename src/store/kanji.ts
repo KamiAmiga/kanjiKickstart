@@ -21,22 +21,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'itsu'
       }
     ],
-    translation: 'un',
+    translation: 'Un',
     examples: [
       {
         kanji: '一つ',
         romaji: 'hitotsu',
-        translation: 'un (compteur)',
+        translation: 'Un (compteur)',
       },
       {
         kanji: '一人',
         romaji: 'hitori',
-        translation: 'une personne',
+        translation: 'Une personne',
       },
       {
         kanji: '一月',
         romaji: 'ichigatsu',
-        translation: 'janvier',
+        translation: 'Janvier',
       },
       {
         kanji: '一日',
@@ -65,22 +65,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'ni'
       }
     ],
-    translation: 'deux',
+    translation: 'Deux',
     examples: [
       {
         kanji: '二つ',
         romaji: 'futatsu',
-        translation: 'deux (compteur)',
+        translation: 'Deux (compteur)',
       },
       {
         kanji: '二人',
         romaji: 'futari',
-        translation: 'deux personnes',
+        translation: 'Deux personnes',
       },
       {
         kanji: '二月',
         romaji: 'nigatsu',
-        translation: 'février',
+        translation: 'Février',
       },
       {
         kanji: '二日',
@@ -90,7 +90,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '二つずつ',
         romaji: 'futatsuzutsu',
-        translation: 'deux par deux (choses)',
+        translation: 'Deux par deux (choses)',
       },
     ]
   },
@@ -109,22 +109,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'san'
       }
     ],
-    translation: 'trois',
+    translation: 'Trois',
     examples: [
       {
         kanji: '三つ',
         romaji: 'mittsu',
-        translation: 'trois (compteur)',
+        translation: 'Trois (compteur)',
       },
       {
         kanji: '三人',
         romaji: 'sannin',
-        translation: 'trois personnes',
+        translation: 'Trois personnes',
       },
       {
         kanji: '三月',
         romaji: 'sangatsu',
-        translation: 'mars',
+        translation: 'Mars',
       },
       {
         kanji: '三日',
@@ -134,7 +134,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '三角',
         romaji: 'sankaku',
-        translation: 'triangle',
+        translation: 'Triangle',
       },
     ]
   },
@@ -157,22 +157,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'shi'
       }
     ],
-    translation: 'quatre',
+    translation: 'Quatre',
     examples: [
       {
         kanji: '四つ',
         romaji: 'yottsu',
-        translation: 'quatre (compteur)',
+        translation: 'Quatre (compteur)',
       },
       {
         kanji: '四人',
         romaji: 'yonin',
-        translation: 'quatre personnes',
+        translation: 'Quatre personnes',
       },
       {
         kanji: '四月',
         romaji: 'shigatsu',
-        translation: 'avril',
+        translation: 'Avril',
       },
       {
         kanji: '四日',
@@ -182,7 +182,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '四季',
         romaji: 'shiki',
-        translation: 'les 4 saisons',
+        translation: 'Les 4 saisons',
       }
     ]
   },
@@ -201,22 +201,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'go'
       }
     ],
-    translation: 'cinq',
+    translation: 'Cinq',
     examples: [
       {
         kanji: '五つ',
         romaji: 'itsutsu',
-        translation: 'cinq (compteur)',
+        translation: 'Cinq (compteur)',
       },
       {
         kanji: '五人',
         romaji: 'gonin',
-        translation: 'cinq personnes',
+        translation: 'Cinq personnes',
       },
       {
         kanji: '五月',
         romaji: 'gogatsu',
-        translation: 'avril',
+        translation: 'Avril',
       },
       {
         kanji: '五日',
@@ -253,22 +253,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'riku'
       }
     ],
-    translation: 'six',
+    translation: 'Six',
     examples: [
       {
         kanji: '六つ',
         romaji: 'muttsu',
-        translation: 'six (compteur)',
+        translation: 'Six (compteur)',
       },
       {
         kanji: '六人',
         romaji: 'rokunin',
-        translation: 'six personnes',
+        translation: 'Six personnes',
       },
       {
         kanji: '六月',
         romaji: 'rokugatsu',
-        translation: 'juin',
+        translation: 'Juin',
       },
       {
         kanji: '六日',
@@ -278,7 +278,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '六ヶ月',
         romaji: 'rokkagetsu',
-        translation: 'semestre',
+        translation: 'Semestre',
       }
     ]
   },
@@ -301,22 +301,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'shichi'
       }
     ],
-    translation: 'sept',
+    translation: 'Sept',
     examples: [
       {
         kanji: '七つ',
         romaji: 'nanatsu',
-        translation: 'sept (compteur)',
+        translation: 'Sept (compteur)',
       },
       {
         kanji: '七人',
         romaji: 'shichinin',
-        translation: 'sept personnes',
+        translation: 'Sept personnes',
       },
       {
         kanji: '七月',
         romaji: 'shichigatsu',
-        translation: 'juillet',
+        translation: 'Juillet',
       },
       {
         kanji: '七日',
@@ -326,7 +326,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '七夕',
         romaji: 'tanabata',
-        translation: 'fête des étoiles (du 7 juillet)',
+        translation: 'Fête des étoiles (du 7 juillet)',
       }
     ]
   },
@@ -349,22 +349,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'hachi'
       }
     ],
-    translation: 'huit',
+    translation: 'Huit',
     examples: [
       {
         kanji: '八つ',
         romaji: 'yattsu',
-        translation: 'huit (compteur)',
+        translation: 'Huit (compteur)',
       },
       {
         kanji: '八人',
         romaji: 'hachinin',
-        translation: 'huit personnes',
+        translation: 'Huit personnes',
       },
       {
         kanji: '八月',
         romaji: 'hachigatsu',
-        translation: 'août',
+        translation: 'Août',
       },
       {
         kanji: '八日',
@@ -374,7 +374,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: 'お八つ',
         romaji: 'oyatsu',
-        translation: 'goûter, quatre-heures',
+        translation: 'Goûter, quatre-heures',
       }
     ]
   },
@@ -397,22 +397,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'kyû'
       }
     ],
-    translation: 'neuf',
+    translation: 'Neuf',
     examples: [
       {
         kanji: '九つ',
         romaji: 'kokonotsu',
-        translation: 'neuf (compteur)',
+        translation: 'Neuf (compteur)',
       },
       {
         kanji: '九人',
         romaji: 'kyûnin',
-        translation: 'neuf personnes',
+        translation: 'Neuf personnes',
       },
       {
         kanji: '九月',
         romaji: 'kugatsu',
-        translation: 'septembre',
+        translation: 'Septembre',
       },
       {
         kanji: '九日',
@@ -422,7 +422,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: ' 九々',
         romaji: 'kuku',
-        translation: 'tables de multiplication',
+        translation: 'Tables de multiplication',
       }
     ]
   },
@@ -445,22 +445,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'jû'
       }
     ],
-    translation: 'dix',
+    translation: 'Dix',
     examples: [
       {
         kanji: '十',
         romaji: 'tô',
-        translation: 'dix (compteur)',
+        translation: 'Dix (compteur)',
       },
       {
         kanji: '十人',
         romaji: 'jûnin',
-        translation: 'dix personnes',
+        translation: 'Dix personnes',
       },
       {
         kanji: '十月',
         romaji: 'jûgatsu',
-        translation: 'octobre',
+        translation: 'Octobre',
       },
       {
         kanji: '十日',
@@ -470,7 +470,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '十字',
         romaji: 'jûji',
-        translation: 'croix, en forme de croix',
+        translation: 'Croix, en forme de croix',
       }
     ]
   },
@@ -489,22 +489,22 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'hyaku'
       }
     ],
-    translation: 'cent',
+    translation: 'Cent',
     examples: [
       {
         kanji: '百',
         romaji: 'hyaku',
-        translation: 'cent (compteur)',
+        translation: 'Cent (compteur)',
       },
       {
         kanji: '百人',
         romaji: 'hyakunin',
-        translation: 'cent personnes',
+        translation: 'Cent personnes',
       },
       {
         kanji: '百',
         romaji: 'nanbyaku',
-        translation: 'des centaines',
+        translation: 'Des centaines',
       }
     ]
   },
@@ -538,7 +538,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '千円',
         romaji: 'sen en',
-        translation: 'mille yens',
+        translation: 'Mille yens',
       }
     ]
   },
@@ -561,7 +561,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'nin'
       }
     ],
-    translation: 'être humain, personne',
+    translation: 'Être humain, personne',
     examples: [
       {
         kanji: '',
@@ -589,7 +589,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'sho'
       }
     ],
-    translation: 'femme',
+    translation: 'Femme',
     examples: [
       {
         kanji: '',
@@ -617,7 +617,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'tan'
       }
     ],
-    translation: 'homme',
+    translation: 'Homme',
     examples: [
       {
         kanji: '',
@@ -645,7 +645,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'shi'
       }
     ],
-    translation: 'enfant',
+    translation: 'Enfant',
     examples: [
       {
         kanji: '',
@@ -685,7 +685,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'shô'
       }
     ],
-    translation: 'haut, dessus, monter',
+    translation: 'Haut, dessus, monter',
     examples: [
       {
         kanji: '',
@@ -733,7 +733,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'ge'
       }
     ],
-    translation: 'bas, dessous, descendre',
+    translation: 'Bas, dessous, descendre',
     examples: [
       {
         kanji: '',
@@ -757,7 +757,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'sa'
       }
     ],
-    translation: 'gauche',
+    translation: 'Gauche',
     examples: [
       {
         kanji: '',
@@ -785,7 +785,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'yû'
       }
     ],
-    translation: 'droite',
+    translation: 'Droite',
     examples: [
       {
         kanji: '',
@@ -813,7 +813,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'jû'
       }
     ],
-    translation: 'milieu, dans, intérieur',
+    translation: 'Milieu, dans, intérieur',
     examples: [
       {
         kanji: '',
@@ -841,7 +841,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'kon'
       }
     ],
-    translation: 'métal, or, argent',
+    translation: 'Métal, or, argent',
     examples: [
       {
         kanji: '',
@@ -865,7 +865,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'sui'
       }
     ],
-    translation: 'eau',
+    translation: 'Eau',
     examples: [
       {
         kanji: '',
@@ -889,7 +889,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'ka'
       }
     ],
-    translation: 'feu',
+    translation: 'Feu',
     examples: [
       {
         kanji: '',
@@ -913,7 +913,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'do'
       }
     ],
-    translation: 'terre',
+    translation: 'Terre, sol',
     examples: [
       {
         kanji: '',
@@ -941,7 +941,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'moku'
       }
     ],
-    translation: 'bois, arbre',
+    translation: 'Bois, arbre',
     examples: [
       {
         kanji: '',
@@ -969,7 +969,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'gatsu'
       }
     ],
-    translation: 'lune, mois',
+    translation: 'Lune, mois',
     examples: [
       {
         kanji: '',
@@ -1005,7 +1005,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'jutsu'
       }
     ],
-    translation: 'soleil, jour',
+    translation: 'Soleil, jour',
     examples: [
       {
         kanji: '',
@@ -1029,7 +1029,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'nen'
       }
     ],
-    translation: 'année',
+    translation: 'Année',
     examples: [
       {
         kanji: '',
@@ -1057,7 +1057,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'tai'
       }
     ],
-    translation: 'grand, gros',
+    translation: 'Grand, gros',
     examples: [
       {
         kanji: '',
@@ -1085,7 +1085,7 @@ export const kanjiList: KanjiList = reactive([
         romaji: 'shô'
       }
     ],
-    translation: 'petit',
+    translation: 'Petit',
     examples: [
       {
         kanji: '',
@@ -1094,4 +1094,1294 @@ export const kanjiList: KanjiList = reactive([
       }
     ]
   },
+  {
+    id: 31,
+    kanji: '早',
+    kunyomi: [
+      {
+        kana: 'はや',
+        romaji: 'haya'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ソウ',
+        romaji: 'sô'
+      },
+      {
+        kana: 'サ',
+        romaji: 'sa'
+      }
+    ],
+    translation: 'Rapide, tôt',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 32,
+    kanji: '目',
+    kunyomi: [
+      {
+        kana: 'め',
+        romaji: 'me'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'モク',
+        romaji: 'moku'
+      },
+      {
+        kana: 'ボク',
+        romaji: 'boku'
+      }
+    ],
+    translation: 'Œil',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 33,
+    kanji: '耳',
+    kunyomi: [
+      {
+        kana: 'みみ',
+        romaji: 'mimi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ジ',
+        romaji: 'ji'
+      }
+    ],
+    translation: 'Oreille',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 34,
+    kanji: '口',
+    kunyomi: [
+      {
+        kana: 'くち',
+        romaji: 'kuchi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'コウ',
+        romaji: 'kô'
+      },
+      {
+        kana: 'ク',
+        romaji: 'ku'
+      }
+    ],
+    translation: 'Bouche',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 35,
+    kanji: '手',
+    kunyomi: [
+      {
+        kana: 'て',
+        romaji: 'te'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'シュ',
+        romaji: 'shu'
+      },
+      {
+        kana: 'ズ',
+        romaji: 'zu'
+      }
+    ],
+    translation: 'Main',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 36,
+    kanji: '足',
+    kunyomi: [
+      {
+        kana: 'あし',
+        romaji: 'ashi'
+      },
+      {
+        kana: 'た',
+        romaji: 'ta'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ソク',
+        romaji: 'soku'
+      }
+    ],
+    translation: 'Jambe, pied, suffire, ajouter',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 37,
+    kanji: '見',
+    kunyomi: [
+      {
+        kana: 'み',
+        romaji: 'mi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ケン',
+        romaji: 'ken'
+      }
+    ],
+    translation: 'Voir, regarder',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 38,
+    kanji: '音',
+    kunyomi: [
+      {
+        kana: 'おと',
+        romaji: 'oto'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'オン',
+        romaji: 'on'
+      }
+    ],
+    translation: 'Son, bruit',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 39,
+    kanji: '生',
+    kunyomi: [
+      {
+        kana: 'い',
+        romaji: 'i'
+      },
+      {
+        kana: 'う',
+        romaji: 'u'
+      },
+      {
+        kana: 'なま',
+        romaji: 'nama'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セイ',
+        romaji: 'sei'
+      },
+      {
+        kana: 'ショウ',
+        romaji: 'shô'
+      }
+    ],
+    translation: 'Vivre, vie, naître, accoucher, pousser, cru',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 40,
+    kanji: '力',
+    kunyomi: [
+      {
+        kana: 'ちから',
+        romaji: 'chikara'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'リョク',
+        romaji: 'ryoku'
+      },
+      {
+        kana: 'リキ',
+        romaji: 'riki'
+      }
+    ],
+    translation: 'Force',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 41,
+    kanji: '気',
+    kunyomi: [
+      {
+        kana: 'いき',
+        romaji: 'iki'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'キ',
+        romaji: 'ki'
+      },
+      {
+        kana: 'ケ',
+        romaji: 'ke'
+      }
+    ],
+    translation: 'Énergie, flux vital',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 42,
+    kanji: '入',
+    kunyomi: [
+      {
+        kana: 'はい',
+        romaji: 'hai'
+      },
+      {
+        kana: 'い',
+        romaji: 'i'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ニュウ',
+        romaji: 'nyû'
+      }
+    ],
+    translation: 'Entrer, insérer',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 43,
+    kanji: '出',
+    kunyomi: [
+      {
+        kana: 'で',
+        romaji: 'de'
+      },
+      {
+        kana: 'だ',
+        romaji: 'da'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'シュツ',
+        romaji: 'shutsu'
+      },
+      {
+        kana: 'スイ',
+        romaji: 'sui'
+      }
+    ],
+    translation: 'Sortir',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 44,
+    kanji: '立',
+    kunyomi: [
+      {
+        kana: 'たつ',
+        romaji: 'tatsu'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'リツ',
+        romaji: 'ritsu'
+      },
+      {
+        kana: 'リユツ',
+        romaji: 'ryutsu'
+      }
+    ],
+    translation: 'Se lever, être debout',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 45,
+    kanji: '休',
+    kunyomi: [
+      {
+        kana: 'やす',
+        romaji: 'yasu'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'キュウ',
+        romaji: 'kyû'
+      }
+    ],
+    translation: 'Repos, vacances',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 46,
+    kanji: '先',
+    kunyomi: [
+      {
+        kana: 'さき',
+        romaji: 'saki'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セン',
+        romaji: 'sen'
+      }
+    ],
+    translation: 'Avant, précédent',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 47,
+    kanji: '夕',
+    kunyomi: [
+      {
+        kana: 'ゆう',
+        romaji: 'yû'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セキ',
+        romaji: 'seki'
+      }
+    ],
+    translation: 'Soir',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 48,
+    kanji: '赤',
+    kunyomi: [
+      {
+        kana: 'あか',
+        romaji: 'aka'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セキ',
+        romaji: 'seki'
+      },
+      {
+        kana: 'シャク',
+        romaji: 'shaku'
+      }
+    ],
+    translation: 'Rouge',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 49,
+    kanji: '青',
+    kunyomi: [
+      {
+        kana: 'あお',
+        romaji: 'ao'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セイ',
+        romaji: 'sei'
+      },
+      {
+        kana: 'ショウ',
+        romaji: 'shô'
+      }
+    ],
+    translation: 'Bleu, vert',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 50,
+    kanji: '白',
+    kunyomi: [
+      {
+        kana: 'しろ',
+        romaji: 'shiro'
+      },
+      {
+        kana: 'しら',
+        romaji: 'shira'
+      },
+      {
+        kana: 'もうす',
+        romaji: 'môsu'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'アク',
+        romaji: 'aku'
+      },
+      {
+        kana: 'ビャク',
+        romaji: 'byaku'
+      }
+    ],
+    translation: 'Blanc, vide',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 51,
+    kanji: '林',
+    kunyomi: [
+      {
+        kana: 'はやし',
+        romaji: 'hayashi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'リン',
+        romaji: 'rin'
+      }
+    ],
+    translation: 'Bois, forêt',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 52,
+    kanji: '森',
+    kunyomi: [
+      {
+        kana: 'もり',
+        romaji: 'mori'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'シン',
+        romaji: 'shin'
+      }
+    ],
+    translation: 'Bois, forêt',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 53,
+    kanji: '山',
+    kunyomi: [
+      {
+        kana: 'やま',
+        romaji: 'yama'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'サン',
+        romaji: 'sen'
+      },
+      {
+        kana: 'セン',
+        romaji: 'san'
+      }
+    ],
+    translation: 'Montagne',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 54,
+    kanji: '川',
+    kunyomi: [
+      {
+        kana: 'かわ',
+        romaji: 'kawa'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セン',
+        romaji: 'sen'
+      }
+    ],
+    translation: 'Rivière',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 55,
+    kanji: '空',
+    kunyomi: [
+      {
+        kana: 'そら',
+        romaji: 'sora'
+      },
+      {
+        kana: 'あ',
+        romaji: 'a'
+      },
+      {
+        kana: 'から',
+        romaji: 'kara'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'クウ',
+        romaji: 'kû'
+      }
+    ],
+    translation: 'Ciel, vide',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 56,
+    kanji: '田',
+    kunyomi: [
+      {
+        kana: 'た',
+        romaji: 'ta'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'デン',
+        romaji: 'den'
+      }
+    ],
+    translation: 'Champ',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 57,
+    kanji: '花',
+    kunyomi: [
+      {
+        kana: 'はな',
+        romaji: 'hana'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'カ',
+        romaji: 'ka'
+      }
+    ],
+    translation: 'Fleur',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 58,
+    kanji: '雨',
+    kunyomi: [
+      {
+        kana: 'あめ',
+        romaji: 'ame'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ウ',
+        romaji: 'u'
+      }
+    ],
+    translation: 'Pluie',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 59,
+    kanji: '天',
+    kunyomi: [
+      {
+        kana: 'あめ',
+        romaji: 'ame'
+      },
+      {
+        kana: 'あま',
+        romaji: 'ama'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'テン',
+        romaji: 'ten'
+      }
+    ],
+    translation: 'Ciel',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 60,
+    kanji: '円',
+    kunyomi: [
+      {
+        kana: 'まる',
+        romaji: 'maru'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'エン',
+        romaji: 'en'
+      }
+    ],
+    translation: 'Cercle, yen',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 61,
+    kanji: '本',
+    kunyomi: [
+      {
+        kana: 'もと',
+        romaji: 'moto'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ホン',
+        romaji: 'hon'
+      }
+    ],
+    translation: 'Origine, livre',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 62,
+    kanji: '文',
+    kunyomi: [
+      {
+        kana: 'ふみ',
+        romaji: 'fumi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ブン',
+        romaji: 'bun'
+      },
+      {
+        kana: 'モン',
+        romaji: 'mon'
+      }
+    ],
+    translation: 'Document, texte',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 63,
+    kanji: '字',
+    kunyomi: [
+      {
+        kana: 'あざ',
+        romaji: 'aza'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ジ',
+        romaji: 'ji'
+      }
+    ],
+    translation: 'Caractère, lettre',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 64,
+    kanji: '学',
+    kunyomi: [
+      {
+        kana: 'まな',
+        romaji: 'mana'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ガク',
+        romaji: 'gaku'
+      }
+    ],
+    translation: 'Étude',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 65,
+    kanji: '校',
+    onyomi: [
+      {
+        kana: 'コウ',
+        romaji: 'kô'
+      }
+    ],
+    translation: 'École',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 66,
+    kanji: '村',
+    kunyomi: [
+      {
+        kana: 'むら',
+        romaji: 'mura'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ソン',
+        romaji: 'son'
+      }
+    ],
+    translation: 'Village',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 67,
+    kanji: '町',
+    kunyomi: [
+      {
+        kana: 'まち',
+        romaji: 'machi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'チョウ',
+        romaji: 'chô'
+      }
+    ],
+    translation: 'Ville',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 68,
+    kanji: '正',
+    kunyomi: [
+      {
+        kana: 'ただ',
+        romaji: 'tada'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セイ',
+        romaji: 'sei'
+      },
+      {
+        kana: 'ショウ',
+        romaji: 'shô'
+      }
+    ],
+    translation: 'Juste, correct, corriger',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 69,
+    kanji: '名',
+    kunyomi: [
+      {
+        kana: 'な',
+        romaji: 'na'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'メイ',
+        romaji: 'mei'
+      },
+      {
+        kana: 'ミョウ',
+        romaji: 'myô'
+      }
+    ],
+    translation: 'Nom, réputation',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 70,
+    kanji: '王',
+    kunyomi: [
+      {
+        kana: 'ノウ',
+        romaji: 'nô'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'オウ',
+        romaji: 'ô'
+      }
+    ],
+    translation: 'Roi, empereur',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 71,
+    kanji: '玉',
+    kunyomi: [
+      {
+        kana: 'たま',
+        romaji: 'tama'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ギヨク',
+        romaji: 'gyoku'
+      }
+    ],
+    translation: 'Bijou, balle, bille, sphère',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 72,
+    kanji: '草',
+    kunyomi: [
+      {
+        kana: 'くさ',
+        romaji: 'kusa'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ソウ',
+        romaji: 'sô'
+      }
+    ],
+    translation: 'Herbe',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 73,
+    kanji: '虫',
+    kunyomi: [
+      {
+        kana: 'むし',
+        romaji: 'mushi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'チユウ',
+        romaji: 'chû'
+      },
+      {
+        kana: 'キ',
+        romaji: 'ki'
+      }
+    ],
+    translation: 'Insecte',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 74,
+    kanji: '犬',
+    kunyomi: [
+      {
+        kana: 'いぬ',
+        romaji: 'inu'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'ケン',
+        romaji: 'ken'
+      }
+    ],
+    translation: 'Chien',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 75,
+    kanji: '石',
+    kunyomi: [
+      {
+        kana: 'いし',
+        romaji: 'ishi'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'セキ',
+        romaji: 'seki'
+      },
+      {
+        kana: 'シャク',
+        romaji: 'shaku'
+      },
+      {
+        kana: 'コク',
+        romaji: 'koku'
+      }
+    ],
+    translation: 'Pierre, caillou',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 76,
+    kanji: '竹',
+    kunyomi: [
+      {
+        kana: 'たけ',
+        romaji: 'take'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'チク',
+        romaji: 'chiku'
+      }
+    ],
+    translation: 'Bambou',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 77,
+    kanji: '糸',
+    kunyomi: [
+      {
+        kana: 'いと',
+        romaji: 'ito'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'シ',
+        romaji: 'shi'
+      },
+      {
+        kana: 'ベキ',
+        romaji: 'beki'
+      }
+    ],
+    translation: 'Soie, fil',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 78,
+    kanji: '貝',
+    kunyomi: [
+      {
+        kana: 'かい',
+        romaji: 'kai'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'バイ',
+        romaji: 'bai'
+      }
+    ],
+    translation: 'Coquillage',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  },
+  {
+    id: 79,
+    kanji: '車',
+    kunyomi: [
+      {
+        kana: 'くるま',
+        romaji: 'kuruma'
+      }
+    ],
+    onyomi: [
+      {
+        kana: 'シャ',
+        romaji: 'sha'
+      }
+    ],
+    translation: 'Voiture, véhicule',
+    examples: [
+      {
+        kanji: '',
+        romaji: '',
+        translation: '',
+      }
+    ]
+  }
 ])

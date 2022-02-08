@@ -9,8 +9,8 @@ interface KanjiExample {
 export interface KanjiItem {
   id: number,
   kanji: string,
-  kunyomi: Array<YomiReading>,
-  onyomi: Array<YomiReading>,
+  kunyomi?: Array<YomiReading>,
+  onyomi?: Array<YomiReading>,
   translation: string,
   examples: Array<KanjiExample>
 }
