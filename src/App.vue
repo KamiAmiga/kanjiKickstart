@@ -1,8 +1,8 @@
 <template>
   <main>
-    <router-view v-slot="{ Component }">
+    <router-view v-slot="{ Component, route }">
       <transition name="fade" mode="out-in">
-        <component :is="Component" />
+        <component :is="Component" :key="route.path" />
       </transition>
     </router-view>
   </main>
@@ -23,12 +23,8 @@ html {
 }
 
 body {
+  @include gradient($position: 10% 20%, $end-color-position: 80%);
   min-height: 100vh;
-  background: $secondary-lightest;
-  background: radial-gradient(
-    circle farthest-side at 10% 20%,
-    $secondary-lightest 0%,
-    $default-base 80%);
   font-family: $font-family-base;
   font-size: $font-size-base;
   color: $default-darkest;
