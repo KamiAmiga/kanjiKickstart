@@ -7,12 +7,12 @@ Gakushû kanji (also called Kyōiku kanji) is the list of the kanjis taught in J
 
 ## Sources
 
-the book : Kanji to kana
-https://fr.wikipedia.org/wiki/Gakush%C5%AB_kanji
-https://jlptstudy.net/N5/?kanji-list
-https://www.dictionnaire-japonais.com/
-https://kakikukeko.fr/
-the app : Kanji Burger (https://www.kanjiburger.com/)
+* the book : Kanji to kana
+* https://fr.wikipedia.org/wiki/Gakush%C5%AB_kanji
+* https://jlptstudy.net/N5/?kanji-list
+* https://www.dictionnaire-japonais.com/
+* https://kakikukeko.fr/
+* the app : Kanji Burger (https://www.kanjiburger.com/)
 
 
 ## Build Setup
