@@ -30,7 +30,7 @@ defineProps<Props>()
   padding: .5rem 1rem;
   position: fixed;
   bottom: 1rem;
-  right: 1rem;
+  right: 50%;
   z-index: 2;
   background: radial-gradient(
     ellipse at top left,
@@ -39,6 +39,7 @@ defineProps<Props>()
   color: $font-color-reverse;
   border-radius: 2rem;
   transition: box-shadow $transition-properties-base;
+  transform: translateX(min(50vw - 1rem, 30rem));
 
   &__icon {
     width: 1rem;

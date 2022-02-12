@@ -61,15 +61,18 @@ defineProps<Props>()
     border-radius: .5rem;
 
     #{$self}--interactive & {
-      transition: background-color $transition-properties-base,
-      box-shadow $transition-properties-base;
+      border: 2px solid $default-lightest;
+      transition: border $transition-properties-base,
+        background-color $transition-properties-base,
+        box-shadow $transition-properties-base;
     }
 
     #{$self}--interactive:hover &,
     #{$self}--interactive:focus &,
     #{$self}--interactive:active & {
       @include shadow($levels: 3, $color: $primary-base);
-      background-color: scale-color($primary-light, $lightness: 85%);
+      border: 2px solid $secondary-light;
+      background-color: $secondary-lightest;
     }
 
     #{$self}--outer &,
