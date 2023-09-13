@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { KanjiList } from '../types/kanji'
+import { type KanjiList } from '../types/kanji'
 
 export const kanjiList: KanjiList = reactive([
   {
@@ -13,11 +13,11 @@ export const kanjiList: KanjiList = reactive([
     ],
     onyomi: [
       {
-        kana:'イチ',
+        kana: 'イチ',
         romaji: 'ichi'
       },
       {
-        kana:'イツ',
+        kana: 'イツ',
         romaji: 'itsu'
       }
     ],

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { KanaItem } from '../types/kana'
+import { type KanaItem } from '../types/kana'
 import CardWrapper from '../components/CardWrapper.vue'
 
 interface Props {
@@ -12,44 +12,34 @@ defineProps<Props>()
 </script>
 
 <template>
-  <CardWrapper>    
+  <CardWrapper>
     <table class="kana-table">
       <tr class="kana-table__row">
-        <td v-for="(tableCol, index) in tableCols"
-          :key="index" class="kana-table__cell">
-          <template v-for="(kana, index) in kanaTable"
-            :key="index">
-            <div v-if="!kana.consonant && kana.vowel && kana.vowel === tableCol"
-              lang="jp">
+        <td v-for="(tableCol, index) in tableCols" :key="index" class="kana-table__cell">
+          <template v-for="(kana, index) in kanaTable" :key="index">
+            <div v-if="!kana.consonant && kana.vowel && kana.vowel === tableCol" lang="jp">
               <div class="kana-table__cell__kana text-jp">{{ kana.kana }}</div>
               <div class="kana-table__cell__romaji">{{ kana.romaji }}</div>
             </div>
           </template>
         </td>
       </tr>
-  
-      <tr v-for="(tableRow, index) in tableRows"
-        :key="index"
-        class="kana-table__row">
-        <td v-for="(tableCol, index) in tableCols"
-          :key="index" class="kana-table__cell">
-          <template v-for="(kana, index) in kanaTable"
-            :key="index">
-            <div v-if="kana.vowel === tableCol && kana.consonant === tableRow"
-              lang="jp">
+
+      <tr v-for="(tableRow, index) in tableRows" :key="index" class="kana-table__row">
+        <td v-for="(tableCol, index) in tableCols" :key="index" class="kana-table__cell">
+          <template v-for="(kana, index) in kanaTable" :key="index">
+            <div v-if="kana.vowel === tableCol && kana.consonant === tableRow" lang="jp">
               <div class="kana-table__cell__kana text-jp">{{ kana.kana }}</div>
               <div class="kana-table__cell__romaji">{{ kana.romaji }}</div>
             </div>
           </template>
         </td>
       </tr>
-  
+
       <tr class="kana-table__row">
         <td class="kana-table__cell">
-          <template v-for="(kana, index) in kanaTable"
-            :key="index">
-            <div v-if="kana.consonant && !kana.vowel"
-              lang="jp">
+          <template v-for="(kana, index) in kanaTable" :key="index">
+            <div v-if="kana.consonant && !kana.vowel" lang="jp">
               <div class="kana-table__cell__kana text-jp">{{ kana.kana }}</div>
               <div class="kana-table__cell__romaji">{{ kana.romaji }}</div>
             </div>
@@ -96,12 +86,11 @@ defineProps<Props>()
       height: 1px;
       bottom: 0;
       left: 0;
-      background: repeating-linear-gradient(
-        to right,
-        $default-dark,
-        $default-dark .4rem,
-        transparent .4rem,
-        transparent 1rem);
+      background: repeating-linear-gradient(to right,
+          $default-dark,
+          $default-dark .4rem,
+          transparent .4rem,
+          transparent 1rem);
     }
   }
 
@@ -111,12 +100,11 @@ defineProps<Props>()
       height: 100%;
       top: 0;
       right: 0;
-      background: repeating-linear-gradient(
-        to bottom,
-        $default-dark,
-        $default-dark .4rem,
-        transparent .4rem,
-        transparent 1rem);
+      background: repeating-linear-gradient(to bottom,
+          $default-dark,
+          $default-dark .4rem,
+          transparent .4rem,
+          transparent 1rem);
     }
 
     &__kana {

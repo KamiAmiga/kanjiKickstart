@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-import Arrow from '../assets/arrow.svg?component'
+import Arrow from '../assets/arrow.svg'
 
 const state = reactive({ scrollY: 0 })
 
@@ -17,9 +17,8 @@ defineProps<Props>()
 
 <template>
   <template v-if="destination === 'Kanjis'">
-    <router-link :to="{ name: 'Kanjis' }"
-      class="back-link back-link--kanji"
-      :class="{'back-link--scrolled' : state.scrollY > 20}">
+    <router-link :to="{ name: 'Kanjis' }" class="back-link back-link--kanji"
+      :class="{ 'back-link--scrolled': state.scrollY > 20 }">
       <div class="back-link__container container">
         <span class="back-link__icon">
           <Arrow />
@@ -32,9 +31,7 @@ defineProps<Props>()
   </template>
 
   <template v-else>
-    <router-link :to="{ name: 'Home' }"
-      class="back-link"
-      :class="{'back-link--scrolled' : state.scrollY > 20}">
+    <router-link :to="{ name: 'Home' }" class="back-link" :class="{ 'back-link--scrolled': state.scrollY > 20 }">
       <div class="back-link__container container">
         <span class="back-link__icon">
           <Arrow />
@@ -52,7 +49,7 @@ defineProps<Props>()
 
 .back-link {
   $self: &;
-  
+
   display: block;
   width: 100%;
   padding: .5rem 0;
@@ -62,8 +59,8 @@ defineProps<Props>()
   z-index: 2;
   color: $secondary-base;
   text-decoration: none;
-  
-  
+
+
   &::before {
     @include gradient($position: 10% 20%, $end-color-position: 80%);
     content: "";

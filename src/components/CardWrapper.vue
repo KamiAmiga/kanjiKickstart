@@ -1,5 +1,4 @@
-<script setup lang="ts">import { reactive } from 'vue';
-
+<script setup lang="ts">
 interface Props {
   type?: string;
   tag?: string;
@@ -10,11 +9,9 @@ defineProps<Props>()
 </script>
 
 <template>
-  <component :is="tag ? tag : 'div'"
-    :class="[ 
-      type ? `card--${type}` : '',
-      interactive ? 'card--interactive' : '']"
-    class="card">
+  <component :is="tag ? tag : 'div'" :class="[
+    type ? `card--${type}` : '',
+    interactive ? 'card--interactive' : '']" class="card">
     <div class="card__content">
       <slot></slot>
     </div>
@@ -36,10 +33,8 @@ defineProps<Props>()
   }
 
   &--outer {
-    @include gradient(
-      $position: -50% -50%,
-      $end-color-position: 200%
-    );
+    @include gradient($position: -50% -50%,
+      $end-color-position: 200%);
     @include shadow();
     justify-content: center;
     align-items: center;
@@ -47,7 +42,7 @@ defineProps<Props>()
     height: 14rem;
     border-radius: 1rem;
   }
-  
+
   &__content {
     @include shadow($levels: 4);
     display: flex;
@@ -77,11 +72,9 @@ defineProps<Props>()
 
     #{$self}--outer &,
     #{$self}--inner & {
-      @include shadow(
-        $inset: true,
+      @include shadow($inset: true,
         $color: mix($default-darker, $secondary-base),
-        $levels: 3
-      );
+        $levels: 3);
     }
 
     #{$self}--outer & {
@@ -103,12 +96,11 @@ defineProps<Props>()
         left: 50%;
         z-index: -1;
         opacity: .6;
-        background: repeating-linear-gradient(
-          to right,
-          $default-dark,
-          $default-dark .4rem,
-          transparent .4rem,
-          transparent 1rem);
+        background: repeating-linear-gradient(to right,
+            $default-dark,
+            $default-dark .4rem,
+            transparent .4rem,
+            transparent 1rem);
         transform: translate(-50%, -50%);
       }
     }

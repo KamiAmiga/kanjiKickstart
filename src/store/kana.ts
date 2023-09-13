@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { KanaTable, KanaItem } from '../types/kana'
+import { type KanaTable, type KanaItem } from '../types/kana'
 
 export const hiraganaTable: KanaTable = reactive([
   {

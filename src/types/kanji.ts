@@ -1,4 +1,4 @@
-import { YomiReading } from './kana'
+import { type YomiReading } from './kana'
 
 interface KanjiExample {
   kanji: string,
@@ -15,4 +15,4 @@ export interface KanjiItem {
   examples: Array<KanjiExample>
 }
 
-export interface KanjiList extends Array<KanjiItem>{}
+export interface KanjiList extends Array<KanjiItem> { }

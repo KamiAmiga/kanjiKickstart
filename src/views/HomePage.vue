@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Arrow from '../assets/arrow.svg?component'
+import Arrow from '../assets/arrow.svg'
 import CardWrapper from '../components/CardWrapper.vue'
 </script>
 
@@ -9,12 +9,11 @@ import CardWrapper from '../components/CardWrapper.vue'
       <h1 class="home-page__header__title">Kanji Kickstart</h1>
       <p class="home-page__header__intro">Introduction à l'apprentissage des kanjis japonais.</p>
     </header>
-  
+
     <nav class="home-page__nav">
       <ul class="home-page__nav__list">
         <CardWrapper tag="li" interactive>
-          <router-link :to="{ name: 'Kanjis' }"
-            class="home-page__nav__list__link">
+          <router-link :to="{ name: 'Kanjis' }" class="home-page__nav__list__link">
             <span class="home-page__nav__list__link__text text-interactive">
               Liste des kanjis
             </span>
@@ -22,8 +21,7 @@ import CardWrapper from '../components/CardWrapper.vue'
           </router-link>
         </CardWrapper>
         <CardWrapper tag="li" interactive>
-          <router-link :to="{ name: 'HiraganasTable' }"
-            class="home-page__nav__list__link">
+          <router-link :to="{ name: 'HiraganasTable' }" class="home-page__nav__list__link">
             <span class="home-page__nav__list__link__text text-interactive">
               Tableau des hiraganas
             </span>
@@ -31,8 +29,7 @@ import CardWrapper from '../components/CardWrapper.vue'
           </router-link>
         </CardWrapper>
         <CardWrapper tag="li" interactive>
-          <router-link :to="{ name: 'KatakanasTable' }"
-            class="home-page__nav__list__link">
+          <router-link :to="{ name: 'KatakanasTable' }" class="home-page__nav__list__link">
             <span class="home-page__nav__list__link__text text-interactive">
               Tableau des katakanas
             </span>
@@ -51,8 +48,7 @@ import CardWrapper from '../components/CardWrapper.vue'
   $self: &;
 
   &__header {
-    @include gradient(
-      $shape: ellipse,
+    @include gradient($shape: ellipse,
       $direction: farthest-side,
       $position: top center,
       $start-color: white,

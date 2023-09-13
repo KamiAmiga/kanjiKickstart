@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Arrow from '../assets/arrow.svg?component'
+import Arrow from '../assets/arrow.svg'
 
 interface Props {
   kanjiId: number;
@@ -9,8 +9,7 @@ defineProps<Props>()
 </script>
 
 <template>
-  <router-link :to="{ name: 'Kanji', params: { id: kanjiId }}"
-    class="next-kanji-link">
+  <router-link :to="{ name: 'Kanji', params: { id: kanjiId } }" class="next-kanji-link">
     <span class="next-kanji-link__text text-interactive">
       Kanji suivant
     </span>
@@ -32,10 +31,9 @@ defineProps<Props>()
   bottom: 1rem;
   right: 50%;
   z-index: 2;
-  background: radial-gradient(
-    ellipse at top left,
-    $primary-light 0,
-    $primary-base 100%);
+  background: radial-gradient(ellipse at top left,
+      $primary-light 0,
+      $primary-base 100%);
   color: $font-color-reverse;
   border-radius: 2rem;
   transition: box-shadow $transition-properties-base;
