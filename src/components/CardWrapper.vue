@@ -1,17 +1,19 @@
 <script setup lang="ts">
 interface Props {
-  type?: string;
-  tag?: string;
-  interactive?: boolean;
+  type?: string
+  tag?: string
+  interactive?: boolean
 }
 
 defineProps<Props>()
 </script>
 
 <template>
-  <component :is="tag ? tag : 'div'" :class="[
-    type ? `card--${type}` : '',
-    interactive ? 'card--interactive' : '']" class="card">
+  <component
+    :is="tag ? tag : 'div'"
+    :class="[type ? `card--${type}` : '', interactive ? 'card--interactive' : '']"
+    class="card"
+  >
     <div class="card__content">
       <slot></slot>
     </div>
@@ -33,8 +35,7 @@ defineProps<Props>()
   }
 
   &--outer {
-    @include gradient($position: -50% -50%,
-      $end-color-position: 200%);
+    @include gradient($position: -50% -50%, $end-color-position: 200%);
     @include shadow();
     justify-content: center;
     align-items: center;
@@ -53,11 +54,12 @@ defineProps<Props>()
     position: relative;
     z-index: 0;
     background-color: $default-lightest;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 
     #{$self}--interactive & {
       border: 2px solid $default-lightest;
-      transition: border $transition-properties-base,
+      transition:
+        border $transition-properties-base,
         background-color $transition-properties-base,
         box-shadow $transition-properties-base;
     }
@@ -72,9 +74,7 @@ defineProps<Props>()
 
     #{$self}--outer &,
     #{$self}--inner & {
-      @include shadow($inset: true,
-        $color: mix($default-darker, $secondary-base),
-        $levels: 3);
+      @include shadow($inset: true, $color: mix($default-darker, $secondary-base), $levels: 3);
     }
 
     #{$self}--outer & {
@@ -88,19 +88,21 @@ defineProps<Props>()
     &::before,
     &::after {
       #{$self}--outer & {
-        content: "";
+        content: '';
         width: 100%;
         height: 1px;
         position: absolute;
         top: 50%;
         left: 50%;
         z-index: -1;
-        opacity: .6;
-        background: repeating-linear-gradient(to right,
-            $default-dark,
-            $default-dark .4rem,
-            transparent .4rem,
-            transparent 1rem);
+        opacity: 0.6;
+        background: repeating-linear-gradient(
+          to right,
+          $default-dark,
+          $default-dark 0.4rem,
+          transparent 0.4rem,
+          transparent 1rem
+        );
         transform: translate(-50%, -50%);
       }
     }

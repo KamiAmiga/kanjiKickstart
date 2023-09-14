@@ -1,30 +1,26 @@
 @use './variables' as *;
-@use "sass:math";
+@use 'sass:math';
 
-@mixin gradient (
+@mixin gradient(
   $shape: circle,
   $direction: farthest-side,
   $position: top left,
   $start-color: $secondary-lightest,
   $end-color: $default-base,
-  $end-color-position: 100%,
+  $end-color-position: 100%
 ) {
   background: radial-gradient(
     $shape $direction at $position,
     $start-color 0%,
     $end-color $end-color-position
-  )
+  );
 }
 
-@mixin shadow (
-  $inset: false,
-  $color: mix($default-dark, $secondary-light, 64%),
-  $levels: 7
-) {
-  $base-offset: .05rem;
+@mixin shadow($inset: false, $color: mix($default-dark, $secondary-light, 64%), $levels: 7) {
+  $base-offset: 0.05rem;
   $base-blur: $base-offset * 2;
   $max-spread: math.div($base-offset, -2);
-  $base-fade-out: .83;
+  $base-fade-out: 0.83;
   $shadows: ();
 
   @for $level from 1 to $levels {
@@ -40,15 +36,13 @@
         ($base-blur * $level)
         ($max-spread + $spread-decrease)
         fade-out($color, $current-fade-out-value);
-    }
-    @else {
+    } @else {
       $shadow: ($base-offset * $level)
         ($base-offset * $level)
         ($base-blur * $level)
         ($max-spread + $spread-decrease)
         fade-out($color, $current-fade-out-value);
     }
-
 
     $shadows: append($shadows, $shadow, comma);
   }

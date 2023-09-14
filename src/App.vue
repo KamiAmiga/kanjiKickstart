@@ -44,7 +44,6 @@ a {
   }
 }
 
-
 // Grid
 .container {
   max-width: 60rem;

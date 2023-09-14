@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/kanjis/:id',
     name: 'Kanji',
-    component: KanjiItem,
+    component: KanjiItem
   }
 ]
 

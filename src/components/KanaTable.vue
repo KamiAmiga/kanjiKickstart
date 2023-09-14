@@ -3,9 +3,9 @@ import { type KanaItem } from '../types/kana'
 import CardWrapper from '../components/CardWrapper.vue'
 
 interface Props {
-  kanaTable: Array<KanaItem>;
-  tableCols: Array<string>;
-  tableRows: Array<string>;
+  kanaTable: Array<KanaItem>
+  tableCols: Array<string>
+  tableRows: Array<string>
 }
 
 defineProps<Props>()
@@ -68,9 +68,9 @@ defineProps<Props>()
     position: relative;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
-      opacity: .6;
+      opacity: 0.6;
     }
 
     &:last-child {
@@ -86,11 +86,13 @@ defineProps<Props>()
       height: 1px;
       bottom: 0;
       left: 0;
-      background: repeating-linear-gradient(to right,
-          $default-dark,
-          $default-dark .4rem,
-          transparent .4rem,
-          transparent 1rem);
+      background: repeating-linear-gradient(
+        to right,
+        $default-dark,
+        $default-dark 0.4rem,
+        transparent 0.4rem,
+        transparent 1rem
+      );
     }
   }
 
@@ -100,19 +102,21 @@ defineProps<Props>()
       height: 100%;
       top: 0;
       right: 0;
-      background: repeating-linear-gradient(to bottom,
-          $default-dark,
-          $default-dark .4rem,
-          transparent .4rem,
-          transparent 1rem);
+      background: repeating-linear-gradient(
+        to bottom,
+        $default-dark,
+        $default-dark 0.4rem,
+        transparent 0.4rem,
+        transparent 1rem
+      );
     }
 
     &__kana {
-      padding: .5rem;
+      padding: 0.5rem;
     }
 
     &__romaji {
-      padding: .25rem .5rem .5rem .5rem;
+      padding: 0.25rem 0.5rem 0.5rem 0.5rem;
     }
   }
 }

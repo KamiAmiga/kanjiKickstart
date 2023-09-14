@@ -26,28 +26,28 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '一つ',
         romaji: 'hitotsu',
-        translation: 'Un (compteur)',
+        translation: 'Un (compteur)'
       },
       {
         kanji: '一人',
         romaji: 'hitori',
-        translation: 'Une personne',
+        translation: 'Une personne'
       },
       {
         kanji: '一月',
         romaji: 'ichigatsu',
-        translation: 'Janvier',
+        translation: 'Janvier'
       },
       {
         kanji: '一日',
         romaji: 'tsuitachi',
-        translation: '1er jour du mois',
+        translation: '1er jour du mois'
       },
       {
         kanji: '十一時',
         romaji: 'jûichiji',
-        translation: '11 heures',
-      },
+        translation: '11 heures'
+      }
     ]
   },
   {
@@ -70,28 +70,28 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '二つ',
         romaji: 'futatsu',
-        translation: 'Deux (compteur)',
+        translation: 'Deux (compteur)'
       },
       {
         kanji: '二人',
         romaji: 'futari',
-        translation: 'Deux personnes',
+        translation: 'Deux personnes'
       },
       {
         kanji: '二月',
         romaji: 'nigatsu',
-        translation: 'Février',
+        translation: 'Février'
       },
       {
         kanji: '二日',
         romaji: 'futsuka',
-        translation: '2e jour du mois',
+        translation: '2e jour du mois'
       },
       {
         kanji: '二つずつ',
         romaji: 'futatsuzutsu',
-        translation: 'Deux par deux (choses)',
-      },
+        translation: 'Deux par deux (choses)'
+      }
     ]
   },
   {
@@ -114,28 +114,28 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '三つ',
         romaji: 'mittsu',
-        translation: 'Trois (compteur)',
+        translation: 'Trois (compteur)'
       },
       {
         kanji: '三人',
         romaji: 'sannin',
-        translation: 'Trois personnes',
+        translation: 'Trois personnes'
       },
       {
         kanji: '三月',
         romaji: 'sangatsu',
-        translation: 'Mars',
+        translation: 'Mars'
       },
       {
         kanji: '三日',
         romaji: 'mikka',
-        translation: '3e jour du mois',
+        translation: '3e jour du mois'
       },
       {
         kanji: '三角',
         romaji: 'sankaku',
-        translation: 'Triangle',
-      },
+        translation: 'Triangle'
+      }
     ]
   },
   {
@@ -162,27 +162,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '四つ',
         romaji: 'yottsu',
-        translation: 'Quatre (compteur)',
+        translation: 'Quatre (compteur)'
       },
       {
         kanji: '四人',
         romaji: 'yonin',
-        translation: 'Quatre personnes',
+        translation: 'Quatre personnes'
       },
       {
         kanji: '四月',
         romaji: 'shigatsu',
-        translation: 'Avril',
+        translation: 'Avril'
       },
       {
         kanji: '四日',
         romaji: 'yokka',
-        translation: '4e jour du mois',
+        translation: '4e jour du mois'
       },
       {
         kanji: '四季',
         romaji: 'shiki',
-        translation: 'Les 4 saisons',
+        translation: 'Les 4 saisons'
       }
     ]
   },
@@ -206,27 +206,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '五つ',
         romaji: 'itsutsu',
-        translation: 'Cinq (compteur)',
+        translation: 'Cinq (compteur)'
       },
       {
         kanji: '五人',
         romaji: 'gonin',
-        translation: 'Cinq personnes',
+        translation: 'Cinq personnes'
       },
       {
         kanji: '五月',
         romaji: 'gogatsu',
-        translation: 'Avril',
+        translation: 'Avril'
       },
       {
         kanji: '五日',
         romaji: 'itsuka',
-        translation: '5e jour du mois',
+        translation: '5e jour du mois'
       },
       {
         kanji: '五分',
         romaji: 'gobu',
-        translation: '50%, moitié',
+        translation: '50%, moitié'
       }
     ]
   },
@@ -258,27 +258,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '六つ',
         romaji: 'muttsu',
-        translation: 'Six (compteur)',
+        translation: 'Six (compteur)'
       },
       {
         kanji: '六人',
         romaji: 'rokunin',
-        translation: 'Six personnes',
+        translation: 'Six personnes'
       },
       {
         kanji: '六月',
         romaji: 'rokugatsu',
-        translation: 'Juin',
+        translation: 'Juin'
       },
       {
         kanji: '六日',
         romaji: 'muika',
-        translation: '6e jour du mois',
+        translation: '6e jour du mois'
       },
       {
         kanji: '六ヶ月',
         romaji: 'rokkagetsu',
-        translation: 'Semestre',
+        translation: 'Semestre'
       }
     ]
   },
@@ -306,27 +306,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '七つ',
         romaji: 'nanatsu',
-        translation: 'Sept (compteur)',
+        translation: 'Sept (compteur)'
       },
       {
         kanji: '七人',
         romaji: 'shichinin',
-        translation: 'Sept personnes',
+        translation: 'Sept personnes'
       },
       {
         kanji: '七月',
         romaji: 'shichigatsu',
-        translation: 'Juillet',
+        translation: 'Juillet'
       },
       {
         kanji: '七日',
         romaji: 'nanoka',
-        translation: '7e jour du mois',
+        translation: '7e jour du mois'
       },
       {
         kanji: '七夕',
         romaji: 'tanabata',
-        translation: 'Fête des étoiles (du 7 juillet)',
+        translation: 'Fête des étoiles (du 7 juillet)'
       }
     ]
   },
@@ -354,27 +354,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '八つ',
         romaji: 'yattsu',
-        translation: 'Huit (compteur)',
+        translation: 'Huit (compteur)'
       },
       {
         kanji: '八人',
         romaji: 'hachinin',
-        translation: 'Huit personnes',
+        translation: 'Huit personnes'
       },
       {
         kanji: '八月',
         romaji: 'hachigatsu',
-        translation: 'Août',
+        translation: 'Août'
       },
       {
         kanji: '八日',
         romaji: 'yôka',
-        translation: '8e jour du mois',
+        translation: '8e jour du mois'
       },
       {
         kanji: 'お八つ',
         romaji: 'oyatsu',
-        translation: 'Goûter, quatre-heures',
+        translation: 'Goûter, quatre-heures'
       }
     ]
   },
@@ -402,27 +402,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '九つ',
         romaji: 'kokonotsu',
-        translation: 'Neuf (compteur)',
+        translation: 'Neuf (compteur)'
       },
       {
         kanji: '九人',
         romaji: 'kyûnin',
-        translation: 'Neuf personnes',
+        translation: 'Neuf personnes'
       },
       {
         kanji: '九月',
         romaji: 'kugatsu',
-        translation: 'Septembre',
+        translation: 'Septembre'
       },
       {
         kanji: '九日',
         romaji: 'kokonoka',
-        translation: '9e jour du mois',
+        translation: '9e jour du mois'
       },
       {
         kanji: ' 九々',
         romaji: 'kuku',
-        translation: 'Tables de multiplication',
+        translation: 'Tables de multiplication'
       }
     ]
   },
@@ -450,27 +450,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '十',
         romaji: 'tô',
-        translation: 'Dix (compteur)',
+        translation: 'Dix (compteur)'
       },
       {
         kanji: '十人',
         romaji: 'jûnin',
-        translation: 'Dix personnes',
+        translation: 'Dix personnes'
       },
       {
         kanji: '十月',
         romaji: 'jûgatsu',
-        translation: 'Octobre',
+        translation: 'Octobre'
       },
       {
         kanji: '十日',
         romaji: 'tôka',
-        translation: '10e jour du mois',
+        translation: '10e jour du mois'
       },
       {
         kanji: '十字',
         romaji: 'jûji',
-        translation: 'Croix, en forme de croix',
+        translation: 'Croix, en forme de croix'
       }
     ]
   },
@@ -494,17 +494,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '百',
         romaji: 'hyaku',
-        translation: 'Cent (compteur)',
+        translation: 'Cent (compteur)'
       },
       {
         kanji: '百人',
         romaji: 'hyakunin',
-        translation: 'Cent personnes',
+        translation: 'Cent personnes'
       },
       {
         kanji: '百',
         romaji: 'nanbyaku',
-        translation: 'Des centaines',
+        translation: 'Des centaines'
       }
     ]
   },
@@ -528,17 +528,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '千',
         romaji: 'sen',
-        translation: 'Mille (compteur)',
+        translation: 'Mille (compteur)'
       },
       {
         kanji: '千人',
         romaji: 'sennin',
-        translation: 'Mille personnes',
+        translation: 'Mille personnes'
       },
       {
         kanji: '千円',
         romaji: 'sen en',
-        translation: 'Mille yens',
+        translation: 'Mille yens'
       }
     ]
   },
@@ -566,28 +566,28 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '人',
         romaji: 'hito',
-        translation: 'Être humain, personne',
+        translation: 'Être humain, personne'
       },
       {
         kanji: '百人',
         romaji: 'hyakunin',
-        translation: 'Cent personnes',
+        translation: 'Cent personnes'
       },
       {
         kanji: '男の人',
         romaji: 'otokonohito',
-        translation: 'Homme',
+        translation: 'Homme'
       },
       {
         kanji: 'フランス人',
         romaji: 'furansujin',
-        translation: 'Français',
+        translation: 'Français'
       },
       {
         kanji: '人々',
         romaji: 'hitobito',
-        translation: 'Les gens',
-      },
+        translation: 'Les gens'
+      }
     ]
   },
   {
@@ -614,28 +614,28 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '女',
         romaji: 'onna',
-        translation: 'Femme',
+        translation: 'Femme'
       },
       {
         kanji: '女の人',
         romaji: 'onnanohito',
-        translation: 'Femme',
+        translation: 'Femme'
       },
       {
         kanji: '男女',
         romaji: 'danjo',
-        translation: 'Homme et femme',
+        translation: 'Homme et femme'
       },
       {
         kanji: '女性',
         romaji: 'josei',
-        translation: 'Femme, genre féminin',
+        translation: 'Femme, genre féminin'
       },
       {
         kanji: '少女',
         romaji: 'shôjo',
-        translation: 'Petite fille, fillette',
-      },
+        translation: 'Petite fille, fillette'
+      }
     ]
   },
   {
@@ -662,27 +662,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '男',
         romaji: 'otoko',
-        translation: 'Homme',
+        translation: 'Homme'
       },
       {
         kanji: '男の人',
         romaji: 'otokonohito',
-        translation: 'Homme',
+        translation: 'Homme'
       },
       {
         kanji: '男性',
         romaji: 'dansei',
-        translation: 'Homme, genre masculin',
+        translation: 'Homme, genre masculin'
       },
       {
         kanji: '山男',
         romaji: 'yamaotoko',
-        translation: 'Montagnard, alpiniste',
+        translation: 'Montagnard, alpiniste'
       },
       {
         kanji: '長男',
         romaji: 'chônan',
-        translation: 'Fils aîné',
+        translation: 'Fils aîné'
       }
     ]
   },
@@ -710,23 +710,23 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '子',
         romaji: 'ko',
-        translation: 'Enfant',
+        translation: 'Enfant'
       },
       {
         kanji: '男子',
         romaji: 'danshi',
-        translation: 'Jeune home, adolescent',
+        translation: 'Jeune home, adolescent'
       },
       {
         kanji: '女の子',
         romaji: 'onnanoko',
-        translation: 'Fille, jeune fille',
+        translation: 'Fille, jeune fille'
       },
       {
         kanji: '親子',
         romaji: 'oyako',
-        translation: 'Parent et enfant',
-      },
+        translation: 'Parent et enfant'
+      }
     ]
   },
   {
@@ -765,23 +765,23 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '上',
         romaji: 'ue',
-        translation: 'Dessus, en haut',
+        translation: 'Dessus, en haut'
       },
       {
         kanji: '以上',
         romaji: 'ijô',
-        translation: 'Au minimum, à partir de',
+        translation: 'Au minimum, à partir de'
       },
       {
         kanji: '上手',
         romaji: 'jôzu',
-        translation: 'Adroit, habile',
+        translation: 'Adroit, habile'
       },
       {
         kanji: '上がる',
         romaji: 'agaru',
-        translation: `Monter, s'élever, se lever`,
-      },
+        translation: `Monter, s'élever, se lever`
+      }
     ]
   },
   {
@@ -828,23 +828,23 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '下',
         romaji: 'shita',
-        translation: 'Dessous, en bas, sous',
+        translation: 'Dessous, en bas, sous'
       },
       {
         kanji: '上下',
         romaji: 'jôge',
-        translation: 'Haut et bas, verticalement',
+        translation: 'Haut et bas, verticalement'
       },
       {
         kanji: '下る',
         romaji: 'kudaru',
-        translation: 'Descendre',
+        translation: 'Descendre'
       },
       {
         kanji: '下手',
         romaji: 'heta',
-        translation: 'Maladroit, peu doué',
-      },
+        translation: 'Maladroit, peu doué'
+      }
     ]
   },
   {
@@ -867,23 +867,23 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '左',
         romaji: 'hidari',
-        translation: 'Gauche',
+        translation: 'Gauche'
       },
       {
         kanji: '左手',
         romaji: 'hidarite',
-        translation: 'Main gauche',
+        translation: 'Main gauche'
       },
       {
         kanji: '左方',
         romaji: 'sahô',
-        translation: 'Côté gauche',
+        translation: 'Côté gauche'
       },
       {
         kanji: '左側',
         romaji: 'hidarigawa',
-        translation: 'Côté gauche',
-      },
+        translation: 'Côté gauche'
+      }
     ]
   },
   {
@@ -910,23 +910,23 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '右',
         romaji: 'migi',
-        translation: 'Droite',
+        translation: 'Droite'
       },
       {
         kanji: '右方',
         romaji: 'uhô',
-        translation: 'Côté droit',
+        translation: 'Côté droit'
       },
       {
         kanji: '左右',
         romaji: 'sayû',
-        translation: 'Gauche et droite, Influence',
+        translation: 'Gauche et droite, Influence'
       },
       {
         kanji: '右側',
         romaji: 'migigawa',
-        translation: 'Côté droit',
-      },
+        translation: 'Côté droit'
+      }
     ]
   },
   {
@@ -953,18 +953,18 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '中',
         romaji: 'naka',
-        translation: 'Milieu, dans, intérieur',
+        translation: 'Milieu, dans, intérieur'
       },
       {
         kanji: '一日中',
         romaji: 'ichinichijû',
-        translation: 'Toute la journée',
+        translation: 'Toute la journée'
       },
       {
         kanji: '中国',
         romaji: 'chûgokû',
-        translation: 'Chine',
-      },
+        translation: 'Chine'
+      }
     ]
   },
   {
@@ -991,18 +991,18 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '金',
         romaji: 'kin',
-        translation: 'Métal, or, argent',
+        translation: 'Métal, or, argent'
       },
       {
         kanji: 'お金',
         romaji: 'okane',
-        translation: 'Argent',
+        translation: 'Argent'
       },
       {
         kanji: '金髪',
         romaji: 'kinpatsu',
-        translation: 'Blond',
-      },
+        translation: 'Blond'
+      }
     ]
   },
   {
@@ -1025,23 +1025,23 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '水',
         romaji: 'sui',
-        translation: 'Eau',
+        translation: 'Eau'
       },
       {
         kanji: '水色',
         romaji: 'mizuiro',
-        translation: 'Bleu clair',
+        translation: 'Bleu clair'
       },
       {
         kanji: '水曜日',
         romaji: 'suiyôbi',
-        translation: 'Mercredi',
+        translation: 'Mercredi'
       },
       {
         kanji: '水気',
         romaji: 'mizuke',
-        translation: 'Humidité',
-      },
+        translation: 'Humidité'
+      }
     ]
   },
   {
@@ -1064,22 +1064,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '火',
         romaji: 'hi',
-        translation: 'Feu, flamme',
+        translation: 'Feu, flamme'
       },
       {
         kanji: '火の玉',
         romaji: 'hinotama',
-        translation: 'Boule de feu, feu follet',
+        translation: 'Boule de feu, feu follet'
       },
       {
         kanji: '火曜日',
         romaji: 'kayôbi',
-        translation: 'Mardi',
+        translation: 'Mardi'
       },
       {
         kanji: '火災',
         romaji: 'kasai',
-        translation: 'Incendie',
+        translation: 'Incendie'
       }
     ]
   },
@@ -1103,17 +1103,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '土',
         romaji: 'tsuchi',
-        translation: 'Terre, sol',
+        translation: 'Terre, sol'
       },
       {
         kanji: '土台',
         romaji: 'dodai',
-        translation: 'Fondation, base',
+        translation: 'Fondation, base'
       },
       {
         kanji: '土曜日',
         romaji: 'doyôbi',
-        translation: 'Samedi',
+        translation: 'Samedi'
       }
     ]
   },
@@ -1141,22 +1141,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '木',
         romaji: 'ki',
-        translation: 'arbre',
+        translation: 'arbre'
       },
       {
         kanji: '木材',
         romaji: 'mokuzai',
-        translation: 'Bois (matériau)',
+        translation: 'Bois (matériau)'
       },
       {
         kanji: '木刀',
         romaji: 'bokutô',
-        translation: 'Sabre en bois',
+        translation: 'Sabre en bois'
       },
       {
         kanji: '木曜日',
         romaji: 'mokuyôbi',
-        translation: 'Jeudi',
+        translation: 'Jeudi'
       }
     ]
   },
@@ -1184,22 +1184,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '月',
         romaji: 'tsuki',
-        translation: 'Lune, mois',
+        translation: 'Lune, mois'
       },
       {
         kanji: '一ヶ月',
         romaji: 'ikkagetsu',
-        translation: 'Un mois (durée)',
+        translation: 'Un mois (durée)'
       },
       {
         kanji: '十一月',
         romaji: 'jûichigatsu',
-        translation: 'Novembre',
+        translation: 'Novembre'
       },
       {
         kanji: '月曜日',
         romaji: 'getsuyoubi',
-        translation: 'Lundi',
+        translation: 'Lundi'
       }
     ]
   },
@@ -1235,27 +1235,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '日',
         romaji: 'hi',
-        translation: 'Soleil, jour',
+        translation: 'Soleil, jour'
       },
       {
         kanji: '今日',
         romaji: 'kyô',
-        translation: `Aujourd'hui`,
+        translation: `Aujourd'hui`
       },
       {
         kanji: '日曜日',
         romaji: 'nichiyôbi',
-        translation: 'Dimanche',
+        translation: 'Dimanche'
       },
       {
         kanji: '三日',
         romaji: 'mikka',
-        translation: 'Le 3e jour du mois',
+        translation: 'Le 3e jour du mois'
       },
       {
         kanji: '休日',
         romaji: 'kyûjitsu',
-        translation: 'Jour de congé, jour férié',
+        translation: 'Jour de congé, jour férié'
       }
     ]
   },
@@ -1279,22 +1279,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '年',
         romaji: 'toshi',
-        translation: 'Année, âge',
+        translation: 'Année, âge'
       },
       {
         kanji: '年',
         romaji: 'nen',
-        translation: 'Année (compteur)',
+        translation: 'Année (compteur)'
       },
       {
         kanji: '年間',
         romaji: 'nenkan',
-        translation: 'Année (durée)',
+        translation: 'Année (durée)'
       },
       {
         kanji: '今年',
         romaji: 'kotoshi',
-        translation: 'Cette année',
+        translation: 'Cette année'
       }
     ]
   },
@@ -1322,22 +1322,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '大きい',
         romaji: 'ôkii',
-        translation: 'Grand, gros',
+        translation: 'Grand, gros'
       },
       {
         kanji: '大阪',
         romaji: 'ôsaka',
-        translation: 'Ôsaka',
+        translation: 'Ôsaka'
       },
       {
         kanji: '大変',
         romaji: 'taihen',
-        translation: 'Important, grave, très',
+        translation: 'Important, grave, très'
       },
       {
         kanji: '大学生',
         romaji: 'daigakusei',
-        translation: `Étudiant à l'université`,
+        translation: `Étudiant à l'université`
       }
     ]
   },
@@ -1369,22 +1369,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '小さい',
         romaji: 'chiisai',
-        translation: 'Petit',
+        translation: 'Petit'
       },
       {
         kanji: '小川',
         romaji: 'ogawa',
-        translation: 'Ruisseau, petite rivière',
+        translation: 'Ruisseau, petite rivière'
       },
       {
         kanji: '小鳥',
         romaji: 'kotori',
-        translation: 'Petit oiseau',
+        translation: 'Petit oiseau'
       },
       {
         kanji: '大小',
         romaji: 'daishô',
-        translation: 'Grand et petit, de différentes tailles',
+        translation: 'Grand et petit, de différentes tailles'
       }
     ]
   },
@@ -1412,17 +1412,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '早い',
         romaji: 'hayai',
-        translation: 'Rapide, tôt',
+        translation: 'Rapide, tôt'
       },
       {
         kanji: '早朝',
         romaji: 'sôchô',
-        translation: 'De bon matin',
+        translation: 'De bon matin'
       },
       {
         kanji: '早急',
         romaji: 'sakkyû',
-        translation: 'Urgent',
+        translation: 'Urgent'
       }
     ]
   },
@@ -1450,22 +1450,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '目',
         romaji: 'me',
-        translation: 'Œil',
+        translation: 'Œil'
       },
       {
         kanji: '目上',
         romaji: 'meue',
-        translation: 'Supérieur (hiérarchique)',
+        translation: 'Supérieur (hiérarchique)'
       },
       {
         kanji: '目的',
         romaji: 'mokuteki',
-        translation: 'But, objectif',
+        translation: 'But, objectif'
       },
       {
         kanji: '面目無い',
         romaji: 'menbokunai',
-        translation: 'Honteux, honteuse',
+        translation: 'Honteux, honteuse'
       }
     ]
   },
@@ -1489,17 +1489,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '耳',
         romaji: 'mimi',
-        translation: 'Oreille',
+        translation: 'Oreille'
       },
       {
         kanji: '耳目',
         romaji: 'jimoku',
-        translation: `Œil et oreille, attention (de quelqu'un)`,
+        translation: `Œil et oreille, attention (de quelqu'un)`
       },
       {
         kanji: '中耳',
         romaji: 'chûji',
-        translation: 'Tympan',
+        translation: 'Tympan'
       }
     ]
   },
@@ -1527,22 +1527,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '口',
         romaji: 'kuchi',
-        translation: 'Bouche',
+        translation: 'Bouche'
       },
       {
         kanji: '人口',
         romaji: 'jinkô',
-        translation: 'Population',
+        translation: 'Population'
       },
       {
         kanji: '口授',
         romaji: 'kuju',
-        translation: 'Enseignement oral',
+        translation: 'Enseignement oral'
       },
       {
         kanji: '入口',
         romaji: 'iriguchi',
-        translation: 'Entrée',
+        translation: 'Entrée'
       }
     ]
   },
@@ -1557,7 +1557,7 @@ export const kanjiList: KanjiList = reactive([
       {
         kana: 'た',
         romaji: 'ta'
-      },
+      }
     ],
     onyomi: [
       {
@@ -1574,27 +1574,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '手',
         romaji: 'te',
-        translation: 'Main',
+        translation: 'Main'
       },
       {
         kanji: '手紙',
         romaji: 'tegami',
-        translation: 'Lettre',
+        translation: 'Lettre'
       },
       {
         kanji: '歌手',
         romaji: 'kashu',
-        translation: 'Chanteur, chanteuse',
+        translation: 'Chanteur, chanteuse'
       },
       {
         kanji: '上手',
         romaji: 'jôzu',
-        translation: 'Habile',
+        translation: 'Habile'
       },
       {
         kanji: '下手',
         romaji: 'heta',
-        translation: 'Maladroit, peu doué',
+        translation: 'Maladroit, peu doué'
       }
     ]
   },
@@ -1622,22 +1622,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '足',
         romaji: 'ashi',
-        translation: 'Pied, jambe',
+        translation: 'Pied, jambe'
       },
       {
         kanji: '足す',
         romaji: 'tasu',
-        translation: 'Additionner, Ajouter',
+        translation: 'Additionner, Ajouter'
       },
       {
         kanji: '遠足',
         romaji: 'ensoku',
-        translation: 'Excursion, sortie en groupe',
+        translation: 'Excursion, sortie en groupe'
       },
       {
         kanji: '手足',
         romaji: 'teashi',
-        translation: 'Bras et jambes, membres',
+        translation: 'Bras et jambes, membres'
       }
     ]
   },
@@ -1661,17 +1661,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '見る',
         romaji: 'miru',
-        translation: 'Voir, regarder',
+        translation: 'Voir, regarder'
       },
       {
         kanji: '意見',
         romaji: 'iken',
-        translation: 'Avis, opinion',
+        translation: 'Avis, opinion'
       },
       {
         kanji: '見せる',
         romaji: 'miseru',
-        translation: 'Montrer',
+        translation: 'Montrer'
       }
     ]
   },
@@ -1703,27 +1703,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '音',
         romaji: 'oto',
-        translation: 'Son, bruit',
+        translation: 'Son, bruit'
       },
       {
         kanji: '音楽',
         romaji: 'ongaku',
-        translation: 'Musique',
+        translation: 'Musique'
       },
       {
         kanji: '子音',
         romaji: 'shiin',
-        translation: 'Consonne',
+        translation: 'Consonne'
       },
       {
         kanji: '足音',
         romaji: 'ashioto',
-        translation: 'Bruit de pas',
+        translation: 'Bruit de pas'
       },
       {
         kanji: '本音',
         romaji: 'honne',
-        translation: 'Intention véritable',
+        translation: 'Intention véritable'
       }
     ]
   },
@@ -1759,27 +1759,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '生',
         romaji: 'nama',
-        translation: 'Cru',
+        translation: 'Cru'
       },
       {
         kanji: '先生',
         romaji: 'sensei',
-        translation: 'Professeur',
+        translation: 'Professeur'
       },
       {
         kanji: '生きる',
         romaji: 'ikiru',
-        translation: 'Vivre',
+        translation: 'Vivre'
       },
       {
         kanji: '一生',
         romaji: 'isshô',
-        translation: 'Toute une vie',
+        translation: 'Toute une vie'
       },
       {
         kanji: '生まれる',
         romaji: 'umareru',
-        translation: 'Être né',
+        translation: 'Être né'
       }
     ]
   },
@@ -1807,22 +1807,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '力',
         romaji: 'chikara',
-        translation: 'Force',
+        translation: 'Force'
       },
       {
         kanji: '力士',
         romaji: 'rikishi',
-        translation: 'Lutteur (sumo)',
+        translation: 'Lutteur (sumo)'
       },
       {
         kanji: '水力',
         romaji: 'suiryoku',
-        translation: 'Force hydraulique',
+        translation: 'Force hydraulique'
       },
       {
         kanji: '力添え',
         romaji: 'chikarazoe',
-        translation: 'Aide, assistance',
+        translation: 'Aide, assistance'
       }
     ]
   },
@@ -1844,18 +1844,18 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '気',
         romaji: 'ki',
-        translation: 'Esprit, humeur',
+        translation: 'Esprit, humeur'
       },
       {
         kanji: '電気',
         romaji: 'denki',
-        translation: 'Électricité',
+        translation: 'Électricité'
       },
       {
         kanji: '気色',
         romaji: 'keshiki',
-        translation: 'Indication, signe',
-      },
+        translation: 'Indication, signe'
+      }
     ]
   },
   {
@@ -1882,22 +1882,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '入る',
         romaji: 'iru / hairu',
-        translation: 'Entrer',
+        translation: 'Entrer'
       },
       {
         kanji: '入学',
         romaji: 'nyûgaku',
-        translation: 'Admission (dans une école)',
+        translation: 'Admission (dans une école)'
       },
       {
         kanji: '入れる',
         romaji: 'ireru',
-        translation: 'Insérer, Mettre',
+        translation: 'Insérer, Mettre'
       },
       {
         kanji: '入日',
         romaji: 'irihi',
-        translation: 'Soleil couchant',
+        translation: 'Soleil couchant'
       }
     ]
   },
@@ -1929,27 +1929,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '出る',
         romaji: 'deru',
-        translation: 'Sortie',
+        translation: 'Sortie'
       },
       {
         kanji: '出す',
         romaji: 'dasu',
-        translation: 'Faire sortir, envoyer',
+        translation: 'Faire sortir, envoyer'
       },
       {
         kanji: '出現',
         romaji: 'shutsugen',
-        translation: 'Apparition',
+        translation: 'Apparition'
       },
       {
         kanji: '出発',
         romaji: 'shuppatsu',
-        translation: 'Départ',
+        translation: 'Départ'
       },
       {
         kanji: '出納',
         romaji: 'Suitô',
-        translation: 'Recettes et dépenses, comptes',
+        translation: 'Recettes et dépenses, comptes'
       }
     ]
   },
@@ -1977,22 +1977,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '立つ',
         romaji: 'tatsu',
-        translation: 'Se lever, se mettre debout',
+        translation: 'Se lever, se mettre debout'
       },
       {
         kanji: '立てる',
         romaji: 'tateru',
-        translation: 'Bâtir, construire',
+        translation: 'Bâtir, construire'
       },
       {
         kanji: '立案',
         romaji: 'ritsuan',
-        translation: 'Brouillon, ébauche',
+        translation: 'Brouillon, ébauche'
       },
       {
         kanji: '立米',
         romaji: 'ryûbei',
-        translation: 'Mètre cube',
+        translation: 'Mètre cube'
       }
     ]
   },
@@ -2016,17 +2016,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '休み',
         romaji: 'yasumi',
-        translation: 'Repos, vacances',
+        translation: 'Repos, vacances'
       },
       {
         kanji: '休む',
         romaji: 'yasumu',
-        translation: 'Se reposer, être absent',
+        translation: 'Se reposer, être absent'
       },
       {
         kanji: '休火山',
         romaji: 'kyûkazan',
-        translation: 'Volcan éteint',
+        translation: 'Volcan éteint'
       }
     ]
   },
@@ -2050,17 +2050,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '先',
         romaji: 'saki',
-        translation: `Avant, d'abord`,
+        translation: `Avant, d'abord`
       },
       {
         kanji: '先月',
         romaji: 'sengetsu',
-        translation: 'Le mois dernier',
+        translation: 'Le mois dernier'
       },
       {
         kanji: '先生',
         romaji: 'sensei',
-        translation: 'Professeur, maître',
+        translation: 'Professeur, maître'
       }
     ]
   },
@@ -2084,17 +2084,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '夕',
         romaji: 'yû',
-        translation: 'Soir, soirée',
+        translation: 'Soir, soirée'
       },
       {
         kanji: '一夕',
         romaji: 'isseki',
-        translation: 'Un soir',
+        translation: 'Un soir'
       },
       {
         kanji: '夕食',
         romaji: 'yûshoku',
-        translation: 'Le dîner, le souper',
+        translation: 'Le dîner, le souper'
       }
     ]
   },
@@ -2122,22 +2122,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '赤',
         romaji: 'aka',
-        translation: 'Rouge',
+        translation: 'Rouge'
       },
       {
         kanji: '赤い',
         romaji: 'akai',
-        translation: 'Rouge (adjectif)',
+        translation: 'Rouge (adjectif)'
       },
       {
         kanji: '赤外',
         romaji: 'sekigai',
-        translation: 'Infrarouge',
+        translation: 'Infrarouge'
       },
       {
         kanji: '赤銅',
         romaji: 'shakudô',
-        translation: `Alliage de cuivre et d'or`,
+        translation: `Alliage de cuivre et d'or`
       }
     ]
   },
@@ -2165,22 +2165,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '青',
         romaji: 'ao',
-        translation: 'Bleu, vert',
+        translation: 'Bleu, vert'
       },
       {
         kanji: '青い',
         romaji: 'aoi',
-        translation: 'Bleu, vert (adjectif)',
+        translation: 'Bleu, vert (adjectif)'
       },
       {
         kanji: '青年',
         romaji: 'seinen',
-        translation: 'Jeunes gens',
+        translation: 'Jeunes gens'
       },
       {
         kanji: '緑青',
         romaji: 'rokushô',
-        translation: 'Vert-de-gris',
+        translation: 'Vert-de-gris'
       }
     ]
   },
@@ -2212,27 +2212,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '白',
         romaji: 'shiro',
-        translation: 'Blanc',
+        translation: 'Blanc'
       },
       {
         kanji: '白い',
         romaji: 'shiroi',
-        translation: 'Blanc (adjectif)',
+        translation: 'Blanc (adjectif)'
       },
       {
         kanji: '白紙',
         romaji: 'hakushi',
-        translation: 'Papier blanc, feuille vierge',
+        translation: 'Papier blanc, feuille vierge'
       },
       {
         kanji: '白む',
         romaji: 'shiramu',
-        translation: `Blanchir, s'éclaircir`,
+        translation: `Blanchir, s'éclaircir`
       },
       {
         kanji: '白業',
         romaji: 'byakugô',
-        translation: 'Bienfait, bonne action',
+        translation: 'Bienfait, bonne action'
       }
     ]
   },
@@ -2256,17 +2256,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '林',
         romaji: 'hayashi',
-        translation: 'Bois, forêt',
+        translation: 'Bois, forêt'
       },
       {
         kanji: '林学',
         romaji: 'ringaku',
-        translation: 'Sylviculture',
+        translation: 'Sylviculture'
       },
       {
         kanji: '林立',
         romaji: 'rinritsu',
-        translation: 'Dressé en rangs serrés',
+        translation: 'Dressé en rangs serrés'
       }
     ]
   },
@@ -2290,17 +2290,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '森',
         romaji: 'mori',
-        translation: 'Bois, forêt',
+        translation: 'Bois, forêt'
       },
       {
         kanji: '森閑',
         romaji: 'shinkan',
-        translation: 'Silence',
+        translation: 'Silence'
       },
       {
         kanji: '森森',
         romaji: 'shinshin',
-        translation: 'Forêt dense',
+        translation: 'Forêt dense'
       }
     ]
   },
@@ -2324,22 +2324,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '山',
         romaji: 'yama',
-        translation: 'Montagne',
+        translation: 'Montagne'
       },
       {
         kanji: '山水',
         romaji: 'sansui',
-        translation: 'paysage',
+        translation: 'paysage'
       },
       {
         kanji: '山道',
         romaji: 'sandô',
-        translation: 'Sentier, route de montagne',
+        translation: 'Sentier, route de montagne'
       },
       {
         kanji: '山刀',
         romaji: 'yamakawa',
-        translation: 'Hache',
+        translation: 'Hache'
       }
     ]
   },
@@ -2363,17 +2363,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '川',
         romaji: 'kawa',
-        translation: 'Rivière, fleuve',
+        translation: 'Rivière, fleuve'
       },
       {
         kanji: '小川',
         romaji: 'ogawa',
-        translation: 'Ruisseau',
+        translation: 'Ruisseau'
       },
       {
         kanji: '河川',
         romaji: 'kasen',
-        translation: 'Fleuves et rivières',
+        translation: 'Fleuves et rivières'
       }
     ]
   },
@@ -2405,27 +2405,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '空',
         romaji: 'sora',
-        translation: 'Ciel',
+        translation: 'Ciel'
       },
       {
         kanji: '空',
         romaji: 'kara',
-        translation: 'Vide, creux',
+        translation: 'Vide, creux'
       },
       {
         kanji: '空気',
         romaji: 'kûki',
-        translation: 'Air, atmosphère',
+        translation: 'Air, atmosphère'
       },
       {
         kanji: '空ける',
         romaji: 'akeru',
-        translation: 'Vider, faire de la place',
+        translation: 'Vider, faire de la place'
       },
       {
         kanji: '空手',
         romaji: 'karate',
-        translation: 'Karaté',
+        translation: 'Karaté'
       }
     ]
   },
@@ -2449,17 +2449,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '田',
         romaji: 'ta',
-        translation: 'Rizière',
+        translation: 'Rizière'
       },
       {
         kanji: '田園',
         romaji: 'Denen',
-        translation: 'Quartiers ruraux, terres cultivées',
+        translation: 'Quartiers ruraux, terres cultivées'
       },
       {
         kanji: '田畑',
         romaji: 'tahata',
-        translation: 'Rizières et champs',
+        translation: 'Rizières et champs'
       }
     ]
   },
@@ -2483,22 +2483,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '花',
         romaji: 'hana',
-        translation: 'Fleur',
+        translation: 'Fleur'
       },
       {
         kanji: '花火',
         romaji: 'hanabi',
-        translation: `Feu d'artifice`,
+        translation: `Feu d'artifice`
       },
       {
         kanji: '花形',
         romaji: 'kakei',
-        translation: 'Arrangement floral',
+        translation: 'Arrangement floral'
       },
       {
         kanji: '花屋',
         romaji: 'hanaya',
-        translation: 'Fleuriste',
+        translation: 'Fleuriste'
       }
     ]
   },
@@ -2522,17 +2522,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '雨',
         romaji: 'ame',
-        translation: 'Pluie',
+        translation: 'Pluie'
       },
       {
         kanji: '雨水',
         romaji: 'amamizu',
-        translation: 'Eau de pluie',
+        translation: 'Eau de pluie'
       },
       {
         kanji: '風雨',
         romaji: 'fûu',
-        translation: 'Vent et pluie',
+        translation: 'Vent et pluie'
       }
     ]
   },
@@ -2560,22 +2560,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '天',
         romaji: 'ame',
-        translation: 'Ciel, paradis',
+        translation: 'Ciel, paradis'
       },
       {
         kanji: '天気',
         romaji: 'tenki',
-        translation: 'Temps, climat',
+        translation: 'Temps, climat'
       },
       {
         kanji: '天使',
         romaji: 'tenshi',
-        translation: 'Ange',
+        translation: 'Ange'
       },
       {
         kanji: '天の川',
         romaji: 'amanogawa',
-        translation: 'Voie lactée',
+        translation: 'Voie lactée'
       }
     ]
   },
@@ -2599,17 +2599,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '円い',
         romaji: 'marui',
-        translation: 'Rond, circulaire',
+        translation: 'Rond, circulaire'
       },
       {
         kanji: '円',
         romaji: 'en',
-        translation: 'Yen (monnaie japonaise)',
+        translation: 'Yen (monnaie japonaise)'
       },
       {
         kanji: '円満',
         romaji: 'enman',
-        translation: 'Harmonie',
+        translation: 'Harmonie'
       }
     ]
   },
@@ -2633,17 +2633,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '本',
         romaji: 'hon',
-        translation: 'Livre, principal, compteur pour les objets cylindriques',
+        translation: 'Livre, principal, compteur pour les objets cylindriques'
       },
       {
         kanji: '本々',
         romaji: 'motomoto',
-        translation: `À l'origine`,
+        translation: `À l'origine`
       },
       {
         kanji: '本当',
         romaji: 'hontô',
-        translation: 'Vraiment',
+        translation: 'Vraiment'
       }
     ]
   },
@@ -2671,27 +2671,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '文',
         romaji: 'fumi',
-        translation: 'Lettre, note',
+        translation: 'Lettre, note'
       },
       {
         kanji: '文',
         romaji: 'bun',
-        translation: 'Phrase, écrit',
+        translation: 'Phrase, écrit'
       },
       {
         kanji: '文字',
         romaji: 'monji',
-        translation: `Lettre, caractère (de l'alphabet)`,
+        translation: `Lettre, caractère (de l'alphabet)`
       },
       {
         kanji: '文学',
         romaji: 'bungaku',
-        translation: 'Littérature',
+        translation: 'Littérature'
       },
       {
         kanji: '文明',
         romaji: 'bunmei',
-        translation: 'Civilisation, culture',
+        translation: 'Civilisation, culture'
       }
     ]
   },
@@ -2715,17 +2715,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '字',
         romaji: 'aza',
-        translation: `Hameau, partie d'un village`,
+        translation: `Hameau, partie d'un village`
       },
       {
         kanji: '字',
         romaji: 'ji',
-        translation: 'Caractère, lettre',
+        translation: 'Caractère, lettre'
       },
       {
         kanji: '字書',
         romaji: 'jisho',
-        translation: 'Dictionnaire',
+        translation: 'Dictionnaire'
       }
     ]
   },
@@ -2749,17 +2749,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '学ぶ',
         romaji: 'manabu',
-        translation: 'Étudier',
+        translation: 'Étudier'
       },
       {
         kanji: '学生',
         romaji: 'gakusei',
-        translation: 'Étudiant, élève',
+        translation: 'Étudiant, élève'
       },
       {
         kanji: '科学',
         romaji: 'kagaku',
-        translation: 'Science',
+        translation: 'Science'
       }
     ]
   },
@@ -2777,17 +2777,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '学校',
         romaji: 'gakkou',
-        translation: 'École',
+        translation: 'École'
       },
       {
         kanji: '校長',
         romaji: 'kôchô',
-        translation: `Directeur d'école`,
+        translation: `Directeur d'école`
       },
       {
         kanji: '休校',
         romaji: 'kyûkô',
-        translation: 'Congés scolaires',
+        translation: 'Congés scolaires'
       }
     ]
   },
@@ -2811,22 +2811,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '村',
         romaji: 'mura',
-        translation: 'Village',
+        translation: 'Village'
       },
       {
         kanji: '村会',
         romaji: 'sonkai',
-        translation: 'Conseil municipal',
+        translation: 'Conseil municipal'
       },
       {
         kanji: '村人',
         romaji: 'murabito',
-        translation: 'Villageois',
+        translation: 'Villageois'
       },
       {
         kanji: '村長',
         romaji: 'sonchô',
-        translation: `Maire d'un village`,
+        translation: `Maire d'un village`
       }
     ]
   },
@@ -2850,17 +2850,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '町',
         romaji: 'machi',
-        translation: 'Ville',
+        translation: 'Ville'
       },
       {
         kanji: '町人',
         romaji: 'chônin',
-        translation: `Habitant d'une ville, citadins`,
+        translation: `Habitant d'une ville, citadins`
       },
       {
         kanji: '下町',
         romaji: 'shitamachi',
-        translation: 'Ville basse, quartier populaire',
+        translation: 'Ville basse, quartier populaire'
       }
     ]
   },
@@ -2892,27 +2892,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '正す',
         romaji: 'tadasu',
-        translation: 'Corriger, vérifier',
+        translation: 'Corriger, vérifier'
       },
       {
         kanji: '正に',
         romaji: 'masani',
-        translation: 'Justement, précisément',
+        translation: 'Justement, précisément'
       },
       {
         kanji: '正時',
         romaji: 'shôji',
-        translation: `À l'heure pile`,
+        translation: `À l'heure pile`
       },
       {
         kanji: '不正',
         romaji: 'fusei',
-        translation: 'Injustice',
+        translation: 'Injustice'
       },
       {
         kanji: '正直',
         romaji: 'shôjiki',
-        translation: 'Honnêteté, franchise',
+        translation: 'Honnêteté, franchise'
       }
     ]
   },
@@ -2940,22 +2940,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '名',
         romaji: 'na',
-        translation: 'Nom, prénom',
+        translation: 'Nom, prénom'
       },
       {
         kanji: '名前',
         romaji: 'namae',
-        translation: 'Nom',
+        translation: 'Nom'
       },
       {
         kanji: '大名',
         romaji: 'daimyou',
-        translation: 'Seigneur féodal',
+        translation: 'Seigneur féodal'
       },
       {
         kanji: '名人',
         romaji: 'meijin',
-        translation: 'Maître, virtuose',
+        translation: 'Maître, virtuose'
       }
     ]
   },
@@ -2973,18 +2973,18 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '王',
         romaji: 'ô',
-        translation: 'Roi',
+        translation: 'Roi'
       },
       {
         kanji: '女王',
         romaji: 'joô',
-        translation: 'Reine',
+        translation: 'Reine'
       },
       {
         kanji: '王子',
         romaji: 'ôji',
-        translation: 'Prince',
-      },
+        translation: 'Prince'
+      }
     ]
   },
   {
@@ -3007,22 +3007,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '玉',
         romaji: 'tama',
-        translation: 'Boule, balle',
+        translation: 'Boule, balle'
       },
       {
         kanji: '玉',
         romaji: 'gyoku',
-        translation: 'Jade, pierre précieuse',
+        translation: 'Jade, pierre précieuse'
       },
       {
         kanji: '玉子',
         romaji: 'tamago',
-        translation: '',
+        translation: ''
       },
       {
         kanji: '玉座',
         romaji: 'gyokuza',
-        translation: 'trône',
+        translation: 'trône'
       }
     ]
   },
@@ -3046,22 +3046,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '草',
         romaji: 'kusa',
-        translation: 'Herbe',
+        translation: 'Herbe'
       },
       {
         kanji: '猫草',
         romaji: 'nekogusa',
-        translation: 'Herbe à chat',
+        translation: 'Herbe à chat'
       },
       {
         kanji: '草原',
         romaji: 'sôgen',
-        translation: 'Prairie',
+        translation: 'Prairie'
       },
       {
         kanji: '草案',
         romaji: 'sôan',
-        translation: 'Avant-projet, plan, ébauche',
+        translation: 'Avant-projet, plan, ébauche'
       }
     ]
   },
@@ -3085,22 +3085,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '虫',
         romaji: 'mushi',
-        translation: 'Insecte',
+        translation: 'Insecte'
       },
       {
         kanji: '虫歯',
         romaji: 'mushiba',
-        translation: 'Dent cariée',
+        translation: 'Dent cariée'
       },
       {
         kanji: '昆虫学',
         romaji: 'konchûgaku',
-        translation: 'Entomologie',
+        translation: 'Entomologie'
       },
       {
         kanji: '虫垂',
         romaji: 'chûsui',
-        translation: 'Appendice',
+        translation: 'Appendice'
       }
     ]
   },
@@ -3124,17 +3124,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '犬',
         romaji: 'inu',
-        translation: 'Chien',
+        translation: 'Chien'
       },
       {
         kanji: '犬小屋',
         romaji: 'inugoya',
-        translation: 'Niche à chien',
+        translation: 'Niche à chien'
       },
       {
         kanji: '番犬',
         romaji: 'banken',
-        translation: 'Chien de garde',
+        translation: 'Chien de garde'
       }
     ]
   },
@@ -3166,27 +3166,27 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '石',
         romaji: 'ishi',
-        translation: 'Pierre, rocher',
+        translation: 'Pierre, rocher'
       },
       {
         kanji: '石',
         romaji: 'koku',
-        translation: 'Unité de volume japonsaise',
+        translation: 'Unité de volume japonsaise'
       },
       {
         kanji: '木石',
         romaji: 'bokuseki',
-        translation: 'Arbre et pierre, insensibilité',
+        translation: 'Arbre et pierre, insensibilité'
       },
       {
         kanji: '磁石',
         romaji: 'jishaku',
-        translation: 'Aimant',
+        translation: 'Aimant'
       },
       {
         kanji: '小石',
         romaji: 'koishi',
-        translation: 'Caillou, galet',
+        translation: 'Caillou, galet'
       }
     ]
   },
@@ -3210,17 +3210,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '竹',
         romaji: 'take',
-        translation: 'Bambou',
+        translation: 'Bambou'
       },
       {
         kanji: '竹林',
         romaji: 'chikurin',
-        translation: 'Forêt de bambou',
+        translation: 'Forêt de bambou'
       },
       {
         kanji: '竹の子',
         romaji: 'takenoko',
-        translation: 'Pousse de bambou',
+        translation: 'Pousse de bambou'
       }
     ]
   },
@@ -3244,22 +3244,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '糸',
         romaji: 'ito',
-        translation: 'Fil',
+        translation: 'Fil'
       },
       {
         kanji: '糸状',
         romaji: 'shijô',
-        translation: 'Filiforme, filamenteux',
+        translation: 'Filiforme, filamenteux'
       },
       {
         kanji: '糸巻き',
         romaji: 'itomaki',
-        translation: 'Bobine de fil',
+        translation: 'Bobine de fil'
       },
       {
         kanji: '金糸',
         romaji: 'kinshi',
-        translation: `Fil d'or`,
+        translation: `Fil d'or`
       }
     ]
   },
@@ -3277,17 +3277,17 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '貝',
         romaji: 'kai',
-        translation: 'Coquillage, coquille',
+        translation: 'Coquillage, coquille'
       },
       {
         kanji: '貝類',
         romaji: 'kairui',
-        translation: 'Coquillages',
+        translation: 'Coquillages'
       },
       {
         kanji: '貽貝',
         romaji: 'mûrugai',
-        translation: 'Moule',
+        translation: 'Moule'
       }
     ]
   },
@@ -3311,22 +3311,22 @@ export const kanjiList: KanjiList = reactive([
       {
         kanji: '車',
         romaji: 'kuruma',
-        translation: 'Voiture, automobile',
+        translation: 'Voiture, automobile'
       },
       {
         kanji: '電車',
         romaji: 'densha',
-        translation: 'Train (électrique)',
+        translation: 'Train (électrique)'
       },
       {
         kanji: '下車',
         romaji: 'gesha',
-        translation: `Descendre (d'un train, d'une voiture)`,
+        translation: `Descendre (d'un train, d'une voiture)`
       },
       {
         kanji: '車屋',
         romaji: 'kurumaya',
-        translation: 'Concessionnaire',
+        translation: 'Concessionnaire'
       }
     ]
   }

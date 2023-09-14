@@ -1,17 +1,16 @@
 // Colors
-$primary-base: #B31603;
-$primary-light: #CA4400;
+$primary-base: #b31603;
+$primary-light: #ca4400;
 
-$secondary-base: #95275B;
-$secondary-light: #EAAFD6;
-$secondary-lightest: #E7DFE5;
+$secondary-base: #95275b;
+$secondary-light: #eaafd6;
+$secondary-lightest: #e7dfe5;
 
-$default-base: #E9E5ED;
-$default-dark: #AAA1AD;
-$default-darker: #3D2C43;
-$default-lightest: #FFF;
+$default-base: #e9e5ed;
+$default-dark: #aaa1ad;
+$default-darker: #3d2c43;
+$default-lightest: #fff;
 $default-darkest: #000;
-
 
 // Fonts
 $font-family-base: 'Assistant', 'Noto Sans', 'Segoe UI', sans-serif;
@@ -30,9 +29,8 @@ $font-color-accented: $secondary-base;
 
 $line-height-jp: 1;
 
-
 // Animations
-$transition-duration-base: .32s;
+$transition-duration-base: 0.32s;
 $transition-timing-function-base: ease-out;
-$transition-timing-function-bounce: cubic-bezier(.4, -.8, .5, 1);
+$transition-timing-function-bounce: cubic-bezier(0.4, -0.8, 0.5, 1);
 $transition-properties-base: $transition-duration-base $transition-timing-function-base;

@@ -48,11 +48,12 @@ import CardWrapper from '../components/CardWrapper.vue'
   $self: &;
 
   &__header {
-    @include gradient($shape: ellipse,
+    @include gradient(
+      $shape: ellipse,
       $direction: farthest-side,
       $position: top center,
       $start-color: white,
-      $end-color: transparent,
+      $end-color: transparent
     );
     min-height: 50vh;
     justify-content: center;
@@ -62,12 +63,12 @@ import CardWrapper from '../components/CardWrapper.vue'
     color: $default-darker;
 
     &::before {
-      content: "漢字";
+      content: '漢字';
       position: absolute;
       top: 50%;
       left: 50%;
       z-index: -1;
-      opacity: .1;
+      opacity: 0.1;
       font-family: $font-family-jp;
       color: $secondary-base;
       font-size: 8rem;
@@ -76,12 +77,12 @@ import CardWrapper from '../components/CardWrapper.vue'
 
     &__title {
       font-size: 1em;
-      margin-bottom: .5em;
-      letter-spacing: .025em;
+      margin-bottom: 0.5em;
+      letter-spacing: 0.025em;
     }
 
     &__intro {
-      font-size: clamp($font-size-title / 2, .375em, $font-size-title);
+      font-size: clamp($font-size-title / 2, 0.375em, $font-size-title);
     }
   }
 
@@ -98,7 +99,7 @@ import CardWrapper from '../components/CardWrapper.vue'
         justify-content: space-between;
         align-items: center;
         flex-grow: 1;
-        padding: .75rem 1rem;
+        padding: 0.75rem 1rem;
 
         &__icon {
           width: 1rem;
@@ -109,7 +110,7 @@ import CardWrapper from '../components/CardWrapper.vue'
           #{$self}__nav__list__link:hover &,
           #{$self}__nav__list__link:focus &,
           #{$self}__nav__list__link:active & {
-            transform: rotate(180deg) translateX(.25rem);
+            transform: rotate(180deg) translateX(0.25rem);
           }
         }
 

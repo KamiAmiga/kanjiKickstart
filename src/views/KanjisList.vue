@@ -8,21 +8,20 @@ import CardWrapper from '../components/CardWrapper.vue'
 <template>
   <div>
     <BackLink />
-  
+
     <div class="container">
       <header class="top-page-title wrapper wrapper--content-center">
         <h1 class="top-page-title">Kanjis</h1>
       </header>
-  
+
       <section class="wrapper wrapper--last">
         <ul class="kanjis-list">
-          <CardWrapper v-for="kanjiItem in kanjiList" :key="kanjiItem.id"
-            tag="li"
-            interactive>
-            <router-link :to="{ name: 'Kanji', params: { id: kanjiItem.id }}"
-              class="kanjis-list__item">
-              <span class="kanjis-list__item__kanji text-jp" 
-                lang="jp">
+          <CardWrapper v-for="kanjiItem in kanjiList" :key="kanjiItem.id" tag="li" interactive>
+            <router-link
+              :to="{ name: 'Kanji', params: { id: kanjiItem.id } }"
+              class="kanjis-list__item"
+            >
+              <span class="kanjis-list__item__kanji text-jp" lang="jp">
                 {{ kanjiItem.kanji }}
               </span>
               <span class="kanjis-list__item__translation">
@@ -53,7 +52,7 @@ import CardWrapper from '../components/CardWrapper.vue'
     color: $default-darkest;
 
     &__kanji {
-      padding: .5rem;
+      padding: 0.5rem;
       font-size: $font-size-title;
       transform: scale(1);
       transition: transform $transition-duration-base $transition-timing-function-bounce;
@@ -61,12 +60,12 @@ import CardWrapper from '../components/CardWrapper.vue'
       #{$self}__item:hover &,
       #{$self}__item:focus &,
       #{$self}__item:active & {
-        transform: scale(.9);
+        transform: scale(0.9);
       }
     }
 
     &__translation {
-      padding: .25rem .5rem .5rem .5rem;
+      padding: 0.25rem 0.5rem 0.5rem 0.5rem;
     }
   }
 }

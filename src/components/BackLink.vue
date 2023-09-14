@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
 })
 
 interface Props {
-  destination?: string;
+  destination?: string
 }
 
 defineProps<Props>()
@@ -17,28 +17,31 @@ defineProps<Props>()
 
 <template>
   <template v-if="destination === 'Kanjis'">
-    <router-link :to="{ name: 'Kanjis' }" class="back-link back-link--kanji"
-      :class="{ 'back-link--scrolled': state.scrollY > 20 }">
+    <router-link
+      :to="{ name: 'Kanjis' }"
+      class="back-link back-link--kanji"
+      :class="{ 'back-link--scrolled': state.scrollY > 20 }"
+    >
       <div class="back-link__container container">
         <span class="back-link__icon">
           <Arrow />
         </span>
-        <span class="back-link__text text-interactive">
-          Retour à la liste des kanjis
-        </span>
+        <span class="back-link__text text-interactive"> Retour à la liste des kanjis </span>
       </div>
     </router-link>
   </template>
 
   <template v-else>
-    <router-link :to="{ name: 'Home' }" class="back-link" :class="{ 'back-link--scrolled': state.scrollY > 20 }">
+    <router-link
+      :to="{ name: 'Home' }"
+      class="back-link"
+      :class="{ 'back-link--scrolled': state.scrollY > 20 }"
+    >
       <div class="back-link__container container">
         <span class="back-link__icon">
           <Arrow />
         </span>
-        <span class="back-link__text text-interactive">
-          Retour à l'accueil
-        </span>
+        <span class="back-link__text text-interactive"> Retour à l'accueil </span>
       </div>
     </router-link>
   </template>
@@ -52,7 +55,7 @@ defineProps<Props>()
 
   display: block;
   width: 100%;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   position: sticky;
   top: 0;
   left: 0;
@@ -60,10 +63,9 @@ defineProps<Props>()
   color: $secondary-base;
   text-decoration: none;
 
-
   &::before {
     @include gradient($position: 10% 20%, $end-color-position: 80%);
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
     position: absolute;
@@ -97,10 +99,10 @@ defineProps<Props>()
     align-items: center;
     width: 2rem;
     height: 2rem;
-    border: .125rem solid $secondary-light;
+    border: 0.125rem solid $secondary-light;
     margin-right: 1rem;
     border-radius: 50%;
-    box-shadow: 0 0 .5rem fade-out($secondary-light, .36);
+    box-shadow: 0 0 0.5rem fade-out($secondary-light, 0.36);
     transition: transform $transition-duration-base $transition-timing-function-bounce;
 
     svg {
@@ -111,7 +113,7 @@ defineProps<Props>()
     #{$self}:hover &,
     #{$self}:focus &,
     #{$self}:active & {
-      transform: translateX(.25rem);
+      transform: translateX(0.25rem);
     }
   }
 }
