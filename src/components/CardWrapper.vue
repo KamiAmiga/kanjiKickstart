@@ -9,11 +9,8 @@ defineProps<Props>()
 </script>
 
 <template>
-  <component
-    :is="tag ? tag : 'div'"
-    :class="[type ? `card--${type}` : '', interactive ? 'card--interactive' : '']"
-    class="card"
-  >
+  <component :is="tag ? tag : 'div'" :class="[type ? `card--${type}` : '', interactive ? 'card--interactive' : '']"
+    class="card">
     <div class="card__content">
       <slot></slot>
     </div>
@@ -29,6 +26,7 @@ defineProps<Props>()
   display: flex;
   justify-content: stretch;
   align-items: stretch;
+  flex-grow: 1;
 
   &--inner {
     box-shadow: none;
@@ -96,13 +94,11 @@ defineProps<Props>()
         left: 50%;
         z-index: -1;
         opacity: 0.6;
-        background: repeating-linear-gradient(
-          to right,
-          $default-dark,
-          $default-dark 0.4rem,
-          transparent 0.4rem,
-          transparent 1rem
-        );
+        background: repeating-linear-gradient(to right,
+            $default-dark,
+            $default-dark 0.4rem,
+            transparent 0.4rem,
+            transparent 1rem);
         transform: translate(-50%, -50%);
       }
     }
