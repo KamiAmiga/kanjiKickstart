@@ -10,12 +10,16 @@ const itemRefs = ref([])
 onMounted(() => {
   const kanjiCards = itemRefs.value
   const options = {
-    threshold: 0
+    threshold: 1
   }
-  const observer = new IntersectionObserver(function (entries, observer) {
-    entries.forEach(entry => {
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('intersected')
+        const target = entry.target as HTMLElement
+
+        target.style.setProperty("--delay", `${(index / (10 + index * .5) + .2).toFixed(3)}s`);
+        target.classList.add('intersected')
+        observer.unobserve(target)
       }
     })
   }, options)
@@ -36,8 +40,7 @@ onMounted(() => {
 
       <section class="wrapper wrapper--last">
         <ul class="kanjis-list">
-          <li v-for="(kanjiItem, index) in kanjiList" :key="kanjiItem.id" ref="itemRefs" class="kanjis-list__test"
-            :style="`--delay: ${index / 10}`">
+          <li v-for="(kanjiItem, index) in kanjiList" :key="kanjiItem.id" ref="itemRefs" class="kanjis-list__test">
             <CardWrapper interactive>
               <router-link :to="{ name: 'Kanji', params: { id: kanjiItem.id } }" class="kanjis-list__item">
                 <span class="kanjis-list__item__kanji text-jp" lang="jp">
@@ -65,16 +68,22 @@ onMounted(() => {
   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
   gap: 1rem;
 
+  @keyframes cards_appearence {}
+
   &__test {
+    --delay: 0s;
+
     display: flex;
     align-items: stretch;
     justify-content: stretch;
     opacity: 0;
     transform: scale(0.25);
-    transition: opacity .3s ease-in-out, transform .5s cubic-bezier(.5, .75, .75, 1.25);
+    transform-origin: top left;
+    transition: opacity .3s var(--delay) ease-in-out, transform .5s var(--delay) cubic-bezier(.5, .75, .75, 1.25);
 
     &.intersected {
       opacity: 1;
+      transform-origin: center;
       transform: scale(1);
     }
   }
