@@ -457,6 +457,237 @@ export const hiraganaTable: KanaTable = reactive([
     romaji: 'n',
     combined: false,
     consonant: 'n'
+  },
+  {
+    kana: 'きゃ',
+    romaji: 'kya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'k'
+  },
+  {
+    kana: 'きゅ',
+    romaji: 'kyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'k'
+  },
+  {
+    kana: 'きょ',
+    romaji: 'kyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'k'
+  },
+  {
+    kana: 'しゃ',
+    romaji: 'sha',
+    combined: true,
+    vowel: 'a',
+    consonant: 's'
+  },
+  {
+    kana: 'しゅ',
+    romaji: 'shu',
+    combined: true,
+    vowel: 'u',
+    consonant: 's'
+  },
+  {
+    kana: 'しょ',
+    romaji: 'sho',
+    combined: true,
+    vowel: 'o',
+    consonant: 's'
+  },
+  {
+    kana: 'ちゃ',
+    romaji: 'tcha',
+    combined: true,
+    vowel: 'a',
+    consonant: 't'
+  },
+  {
+    kana: 'ちゅ',
+    romaji: 'tchu',
+    combined: true,
+    vowel: 'u',
+    consonant: 't'
+  },
+  {
+    kana: 'ちょ',
+    romaji: 'tcho',
+    combined: true,
+    vowel: 'o',
+    consonant: 't'
+  },
+  {
+    kana: 'にゃ',
+    romaji: 'nya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'n'
+  },
+  {
+    kana: 'にゅ',
+    romaji: 'nyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'n'
+  },
+  {
+    kana: 'にょ',
+    romaji: 'nyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'n'
+  },
+  {
+    kana: 'ひゃ',
+    romaji: 'hya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'h'
+  },
+  {
+    kana: 'ひゅ',
+    romaji: 'hyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'h'
+  },
+  {
+    kana: 'ひょ',
+    romaji: 'hyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'h'
+  },
+  {
+    kana: 'みゃ',
+    romaji: 'mya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'm'
+  },
+  {
+    kana: 'みゅ',
+    romaji: 'myu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'm'
+  },
+  {
+    kana: 'みょ',
+    romaji: 'myo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'm'
+  },
+  {
+    kana: 'りゃ',
+    romaji: 'rya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'r'
+  },
+  {
+    kana: 'りゅ',
+    romaji: 'ryu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'r'
+  },
+  {
+    kana: 'りょ',
+    romaji: 'ryo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'r'
+  },
+  {
+    kana: 'ぎゃ',
+    romaji: 'gya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'g'
+  },
+  {
+    kana: 'ぎゅ',
+    romaji: 'gyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'g'
+  },
+  {
+    kana: 'ぎょ',
+    romaji: 'gyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'g'
+  },
+  {
+    kana: 'じゃ',
+    romaji: 'dja / ja',
+    combined: true,
+    vowel: 'a',
+    consonant: 'j'
+  },
+  {
+    kana: 'じゅ',
+    romaji: 'dju / ju',
+    combined: true,
+    vowel: 'u',
+    consonant: 'j'
+  },
+  {
+    kana: 'じょ',
+    romaji: 'djo / jo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'j'
+  },
+  {
+    kana: 'びゃ',
+    romaji: 'bya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'b'
+  },
+  {
+    kana: 'びゅ',
+    romaji: 'byu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'b'
+  },
+  {
+    kana: 'びょ',
+    romaji: 'byo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'b'
+  },
+  {
+    kana: 'ぴゃ',
+    romaji: 'pya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'p'
+  },
+  {
+    kana: 'ぴゅ',
+    romaji: 'pyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'p'
+  },
+  {
+    kana: 'ぴょ',
+    romaji: 'pyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'p'
   }
 ])
 
@@ -916,7 +1147,238 @@ export const katakanaTable: KanaTable = reactive([
     romaji: 'n',
     combined: false,
     consonant: 'n'
-  }
+  },
+  {
+    kana: 'キャ',
+    romaji: 'ka',
+    combined: true,
+    vowel: 'a',
+    consonant: 'k'
+  },
+  {
+    kana: 'キュ',
+    romaji: 'ku',
+    combined: true,
+    vowel: 'u',
+    consonant: 'k'
+  },
+  {
+    kana: 'キョ',
+    romaji: 'ko',
+    combined: true,
+    vowel: 'o',
+    consonant: 'k'
+  },
+  {
+    kana: 'シャ',
+    romaji: 'sha',
+    combined: true,
+    vowel: 'a',
+    consonant: 's'
+  },
+  {
+    kana: 'シュ',
+    romaji: 'shu',
+    combined: true,
+    vowel: 'u',
+    consonant: 's'
+  },
+  {
+    kana: 'ショ',
+    romaji: 'sho',
+    combined: true,
+    vowel: 'o',
+    consonant: 's'
+  },
+  {
+    kana: 'チャ',
+    romaji: 'tcha',
+    combined: true,
+    vowel: 'a',
+    consonant: 't'
+  },
+  {
+    kana: 'チュ',
+    romaji: 'tchu',
+    combined: true,
+    vowel: 'u',
+    consonant: 't'
+  },
+  {
+    kana: 'チョ',
+    romaji: 'tcho',
+    combined: true,
+    vowel: 'o',
+    consonant: 't'
+  },
+  {
+    kana: 'ニャ',
+    romaji: 'nya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'n'
+  },
+  {
+    kana: 'ニュ',
+    romaji: 'nyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'n'
+  },
+  {
+    kana: 'ニョ',
+    romaji: 'nyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'n'
+  },
+  {
+    kana: 'ヒャ',
+    romaji: 'hya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'h'
+  },
+  {
+    kana: 'ヒュ',
+    romaji: 'hyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'h'
+  },
+  {
+    kana: 'ヒョ',
+    romaji: 'hyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'h'
+  },
+  {
+    kana: 'ミャ',
+    romaji: 'mya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'm'
+  },
+  {
+    kana: 'ミュ',
+    romaji: 'myu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'm'
+  },
+  {
+    kana: 'ミョ',
+    romaji: 'myo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'm'
+  },
+  {
+    kana: 'リャ',
+    romaji: 'rya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'r'
+  },
+  {
+    kana: 'リュ',
+    romaji: 'ryu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'r'
+  },
+  {
+    kana: 'リョ',
+    romaji: 'ryo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'r'
+  },
+  {
+    kana: 'ギャ',
+    romaji: 'gya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'g'
+  },
+  {
+    kana: 'ギュ',
+    romaji: 'gyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'g'
+  },
+  {
+    kana: 'ギョ',
+    romaji: 'gyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'g'
+  },
+  {
+    kana: 'ジャ',
+    romaji: 'dja / ja',
+    combined: true,
+    vowel: 'a',
+    consonant: 'j'
+  },
+  {
+    kana: 'ジュ',
+    romaji: 'dju / ju',
+    combined: true,
+    vowel: 'u',
+    consonant: 'j'
+  },
+  {
+    kana: 'ジョ',
+    romaji: 'djo / jo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'j'
+  },
+  {
+    kana: 'ビャ',
+    romaji: 'bya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'b'
+  },
+  {
+    kana: 'ビュ',
+    romaji: 'byu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'b'
+  },
+  {
+    kana: 'ビョ',
+    romaji: 'byo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'b'
+  },
+  {
+    kana: 'ピャ',
+    romaji: 'pya',
+    combined: true,
+    vowel: 'a',
+    consonant: 'p'
+  },
+  {
+    kana: 'ピュ',
+    romaji: 'pyu',
+    combined: true,
+    vowel: 'u',
+    consonant: 'p'
+  },
+  {
+    kana: 'ピョ',
+    romaji: 'pyo',
+    combined: true,
+    vowel: 'o',
+    consonant: 'p'
+  },
 ])
 
 export function kanaTableCols(kanaTable: Array<KanaItem>) {

@@ -56,6 +56,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  gap: 2rem;
 
   &--content-center {
     align-items: center;
@@ -65,7 +66,6 @@ a {
   &--2-cols {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 2rem;
   }
 
   &--last {

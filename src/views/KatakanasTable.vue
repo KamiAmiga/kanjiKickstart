@@ -19,8 +19,8 @@ const tableRows = kanaTableRows(katakanaTable)
       </header>
 
       <section class="wrapper wrapper--last">
-        <KanaTableVue :kanaTable="katakanaTable" :tableCols="tableCols" :tableRows="tableRows">
-        </KanaTableVue>
+        <KanaTableVue :kanaTable="katakanaTable" :tableCols="tableCols" :tableRows="tableRows" :combined="false" />
+        <KanaTableVue :kanaTable="katakanaTable" :tableCols="tableCols" :tableRows="tableRows" :combined="true" />
       </section>
     </div>
   </div>
