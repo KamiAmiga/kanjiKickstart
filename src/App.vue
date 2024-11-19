@@ -12,6 +12,19 @@
 @use './scss/abstracts' as *;
 
 // Base
+:root {
+  --color-primary-base: $primary-base;
+  --color-primary-light: $primary-light;
+  --color-secondary-base: $secondary-base;
+  --color-secondary-light: $secondary-light;
+  --color-secondary-lightest: $secondary-lightest;
+  --color-default-base: $default-base;
+  --color-default-dark: $default-dark;
+  --color-default-darker: $default-darker;
+  --color-default-lightest: $default-lightest;
+  --color-default-darkest: $default-darkest;
+}
+
 * {
   padding: 0;
   margin: 0;

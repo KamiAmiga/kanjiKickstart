@@ -49,6 +49,7 @@ defineProps<Props>()
 
 <style scoped lang="scss">
 @use '../scss/abstracts' as *;
+@use "sass:color";
 
 .back-link {
   $self: &;
@@ -102,7 +103,7 @@ defineProps<Props>()
     border: 0.125rem solid $secondary-light;
     margin-right: 1rem;
     border-radius: 50%;
-    box-shadow: 0 0 0.5rem fade-out($secondary-light, 0.36);
+    box-shadow: 0 0 0.5rem color.adjust($secondary-light, $alpha: -.36, $space: rgb);
     transition: transform $transition-duration-base $transition-timing-function-bounce;
 
     svg {

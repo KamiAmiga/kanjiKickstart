@@ -1,5 +1,7 @@
 @use './variables' as *;
 @use 'sass:math';
+@use "sass:color";
+@use "sass:list";
 
 @mixin gradient(
   $shape: circle,
@@ -16,7 +18,7 @@
   );
 }
 
-@mixin shadow($inset: false, $color: mix($default-dark, $secondary-light, 64%), $levels: 7) {
+@mixin shadow($inset: false, $color: color.mix($default-dark, $secondary-light, 64%), $levels: 7) {
   $base-offset: 0.05rem;
   $base-blur: $base-offset * 2;
   $max-spread: math.div($base-offset, -2);
@@ -35,16 +37,16 @@
         ($base-offset * $level)
         ($base-blur * $level)
         ($max-spread + $spread-decrease)
-        fade-out($color, $current-fade-out-value);
+        color.adjust($color, $alpha: -$current-fade-out-value, $space: rgb);
     } @else {
       $shadow: ($base-offset * $level)
         ($base-offset * $level)
         ($base-blur * $level)
         ($max-spread + $spread-decrease)
-        fade-out($color, $current-fade-out-value);
+        color.adjust($color, $alpha: -$current-fade-out-value, $space: rgb);
     }
 
-    $shadows: append($shadows, $shadow, comma);
+    $shadows: list.append($shadows, $shadow, comma);
   }
 
   box-shadow: $shadows;

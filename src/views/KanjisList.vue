@@ -40,7 +40,7 @@ onMounted(() => {
 
       <section class="wrapper wrapper--last">
         <ul class="kanjis-list">
-          <li v-for="(kanjiItem, index) in kanjiList" :key="kanjiItem.id" ref="itemRefs" class="kanjis-list__test">
+          <li v-for="(kanjiItem) in kanjiList" :key="kanjiItem.id" ref="itemRefs" class="kanjis-list__test">
             <CardWrapper interactive>
               <router-link :to="{ name: 'Kanji', params: { id: kanjiItem.id } }" class="kanjis-list__item">
                 <span class="kanjis-list__item__kanji text-jp" lang="jp">

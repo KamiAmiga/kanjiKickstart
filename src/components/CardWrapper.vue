@@ -19,6 +19,7 @@ defineProps<Props>()
 
 <style scoped lang="scss">
 @use '../scss/abstracts' as *;
+@use "sass:color";
 
 .card {
   $self: &;
@@ -72,7 +73,7 @@ defineProps<Props>()
 
     #{$self}--outer &,
     #{$self}--inner & {
-      @include shadow($inset: true, $color: mix($default-darker, $secondary-base), $levels: 3);
+      @include shadow($inset: true, $color: color.mix($default-darker, $secondary-base), $levels: 3);
     }
 
     #{$self}--outer & {
