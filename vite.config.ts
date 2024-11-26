@@ -23,7 +23,7 @@ export default defineConfig({
         name: 'Kanji Kickstart',
         short_name: 'kanji-kickstart',
         description: 'A list of basic kanjis and their usage, built with Vue.js, Typescript and Vite',
-        theme_color: '#ffffff',
+        theme_color: '#E9E5ED',
 
         icons: [{
           src: 'pwa-64x64.png',
