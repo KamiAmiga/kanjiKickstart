@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { type KanaItem } from '../types/kana'
-import CardWrapper from '../components/CardWrapper.vue'
+import CardWrapper from './CardWrapper.vue'
 
 interface Props {
   kanaTable: Array<KanaItem>
@@ -60,8 +60,6 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
-@use '../scss/abstracts' as *;
-
 .kana-table {
   flex-grow: 1;
   border: none;
@@ -92,8 +90,8 @@ defineProps<Props>()
       bottom: 0;
       left: 0;
       background: repeating-linear-gradient(to right,
-          $default-dark,
-          $default-dark 0.4rem,
+          var(--color-default-dark),
+          var(--color-default-dark) 0.4rem,
           transparent 0.4rem,
           transparent 1rem);
     }
@@ -106,8 +104,8 @@ defineProps<Props>()
       top: 0;
       right: 0;
       background: repeating-linear-gradient(to bottom,
-          $default-dark,
-          $default-dark 0.4rem,
+          var(--color-default-dark),
+          var(--color-default-dark) 0.4rem,
           transparent 0.4rem,
           transparent 1rem);
     }

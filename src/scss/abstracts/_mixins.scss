@@ -18,7 +18,7 @@
   );
 }
 
-@mixin shadow($inset: false, $color: color.mix($default-dark, $secondary-light, 64%), $levels: 7) {
+@mixin shadow($inset: false, $color: color-mix(in srgb, $secondary-light 64%, $default-dark), $levels: 7) {
   $base-offset: 0.05rem;
   $base-blur: $base-offset * 2;
   $max-spread: math.div($base-offset, -2);
@@ -37,13 +37,13 @@
         ($base-offset * $level)
         ($base-blur * $level)
         ($max-spread + $spread-decrease)
-        color.adjust($color, $alpha: -$current-fade-out-value, $space: rgb);
+        color-mix(in srgb, transparent calc($current-fade-out-value * 100%), $color);
     } @else {
       $shadow: ($base-offset * $level)
         ($base-offset * $level)
         ($base-blur * $level)
         ($max-spread + $spread-decrease)
-        color.adjust($color, $alpha: -$current-fade-out-value, $space: rgb);
+        color-mix(in srgb, transparent calc($current-fade-out-value * 100%), $color);
     }
 
     $shadows: list.append($shadows, $shadow, comma);

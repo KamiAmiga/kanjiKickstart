@@ -59,16 +59,12 @@ onMounted(() => {
 </template>
 
 <style scoped lang="scss">
-@use '../scss/abstracts' as *;
-
 .kanjis-list {
   $self: &;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
   gap: 1rem;
-
-  @keyframes cards_appearence {}
 
   &__test {
     --delay: 0s;
@@ -93,13 +89,13 @@ onMounted(() => {
     flex-direction: column;
     flex-grow: 1;
     text-align: center;
-    color: $default-darkest;
+    color: var(--font-color);
 
     &__kanji {
       padding: 0.5rem;
-      font-size: $font-size-title;
+      font-size: var(--font-size-title);
       transform: scale(1);
-      transition: transform $transition-duration-base $transition-timing-function-bounce;
+      transition: transform var(--transition-duration-base) var(--transition-timing-function-bounce);
 
       #{$self}__item:hover &,
       #{$self}__item:focus &,
@@ -110,7 +106,7 @@ onMounted(() => {
 
     &__translation {
       padding: 0.25rem 0.5rem 0.5rem 0.5rem;
-      font-size: $font-size-base * .875;
+      font-size: calc(var(--font-size-base) * .875);
     }
   }
 }

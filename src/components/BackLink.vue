@@ -48,8 +48,7 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
-@use '../scss/abstracts' as *;
-@use "sass:color";
+@use '../scss/abstracts/mixins' as *;
 
 .back-link {
   $self: &;
@@ -61,7 +60,7 @@ defineProps<Props>()
   top: 0;
   left: 0;
   z-index: 2;
-  color: $secondary-base;
+  color: var(--font-color-accented);
   text-decoration: none;
 
   &::before {
@@ -75,7 +74,7 @@ defineProps<Props>()
     z-index: -1;
     opacity: 0;
     box-shadow: 0 0 0 transparent;
-    transition: all $transition-properties-base;
+    transition: all var(--transition-properties-base);
   }
 
   &--scrolled,
@@ -100,15 +99,15 @@ defineProps<Props>()
     align-items: center;
     width: 2rem;
     height: 2rem;
-    border: 0.125rem solid $secondary-light;
+    border: 0.125rem solid var(--color-secondary-light);
     margin-right: 1rem;
     border-radius: 50%;
-    box-shadow: 0 0 0.5rem color.adjust($secondary-light, $alpha: -.36, $space: rgb);
-    transition: transform $transition-duration-base $transition-timing-function-bounce;
+    box-shadow: 0 0 0.5rem color-mix(in srgb, transparent 64%, var(--color-secondary-light));
+    transition: transform var(--transition-duration-base) var(--transition-timing-function-bounce);
 
     svg {
       width: 1.25rem;
-      stroke: $secondary-base;
+      stroke: currentColor
     }
 
     #{$self}:hover &,

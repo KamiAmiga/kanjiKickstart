@@ -1,0 +1,27 @@
+.container {
+  max-width: 60rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 2rem;
+
+  &--content-center {
+    align-items: center;
+    text-align: center;
+  }
+
+  &--2-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+
+  &--last {
+    margin-bottom: 3rem;
+  }
+}

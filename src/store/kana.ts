@@ -1382,7 +1382,7 @@ export const katakanaTable: KanaTable = reactive([
 ])
 
 export function kanaTableCols(kanaTable: Array<KanaItem>) {
-  const vowels = new Array()
+  const vowels: string[] = []
   kanaTable.forEach((kana) => {
     if (kana.vowel && !vowels.includes(kana.vowel)) {
       vowels.push(kana.vowel)
@@ -1392,7 +1392,7 @@ export function kanaTableCols(kanaTable: Array<KanaItem>) {
 }
 
 export function kanaTableRows(kanaTable: Array<KanaItem>) {
-  const consonants = new Array()
+  const consonants: string[] = []
   kanaTable.forEach((kana) => {
     if (kana.consonant && !consonants.includes(kana.consonant)) {
       consonants.push(kana.consonant)

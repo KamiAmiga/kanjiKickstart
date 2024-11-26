@@ -15,4 +15,4 @@ export interface KanjiItem {
   examples: Array<KanjiExample>
 }
 
-export interface KanjiList extends Array<KanjiItem> {}
+export type KanjiList = Array<KanjiItem>

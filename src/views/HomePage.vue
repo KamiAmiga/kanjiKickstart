@@ -14,7 +14,7 @@ import CardWrapper from '../components/CardWrapper.vue'
       <ul class="home-page__nav__list">
         <CardWrapper tag="li" interactive>
           <router-link :to="{ name: 'Kanjis' }" class="home-page__nav__list__link">
-            <span class="home-page__nav__list__link__text text-interactive">
+            <span class="text-interactive">
               Liste des kanjis
             </span>
             <Arrow class="home-page__nav__list__link__icon" />
@@ -22,7 +22,7 @@ import CardWrapper from '../components/CardWrapper.vue'
         </CardWrapper>
         <CardWrapper tag="li" interactive>
           <router-link :to="{ name: 'HiraganasTable' }" class="home-page__nav__list__link">
-            <span class="home-page__nav__list__link__text text-interactive">
+            <span class="text-interactive">
               Tableau des hiraganas
             </span>
             <Arrow class="home-page__nav__list__link__icon" />
@@ -30,7 +30,7 @@ import CardWrapper from '../components/CardWrapper.vue'
         </CardWrapper>
         <CardWrapper tag="li" interactive>
           <router-link :to="{ name: 'KatakanasTable' }" class="home-page__nav__list__link">
-            <span class="home-page__nav__list__link__text text-interactive">
+            <span class="text-interactive">
               Tableau des katakanas
             </span>
             <Arrow class="home-page__nav__list__link__icon" />
@@ -52,15 +52,15 @@ import CardWrapper from '../components/CardWrapper.vue'
       $shape: ellipse,
       $direction: farthest-side,
       $position: top center,
-      $start-color: white,
+      $start-color: var(--color-default-lightest),
       $end-color: transparent
     );
     min-height: 50vh;
     justify-content: center;
     position: relative;
     z-index: 0;
-    font-size: clamp($font-size-title, 6vw, 4rem);
-    color: $default-darker;
+    font-size: clamp(var(--font-size-title), 6vw, 4rem);
+    color: var(--color-default-darker);
 
     &::before {
       content: '漢字';
@@ -69,8 +69,8 @@ import CardWrapper from '../components/CardWrapper.vue'
       left: 50%;
       z-index: -1;
       opacity: 0.1;
-      font-family: $font-family-jp;
-      color: $secondary-base;
+      font-family: var(--font-family-jp);
+      color: var(--color-secondary-base);
       font-size: 8rem;
       transform: translate(-50%, -50%);
     }
@@ -82,7 +82,7 @@ import CardWrapper from '../components/CardWrapper.vue'
     }
 
     &__intro {
-      font-size: clamp($font-size-title / 2, 0.375em, $font-size-title);
+      font-size: clamp(var(--font-size-title) / 2, 0.375em, var(--font-size-title));
     }
   }
 
@@ -100,22 +100,19 @@ import CardWrapper from '../components/CardWrapper.vue'
         align-items: center;
         flex-grow: 1;
         padding: 0.75rem 1rem;
+        color: var(--font-color-accented);
 
         &__icon {
           width: 1rem;
-          stroke: $secondary-base;
+          stroke: currentColor;
           transform: rotate(180deg);
-          transition: transform $transition-duration-base $transition-timing-function-bounce;
+          transition: transform var(--transition-duration-base) var(--transition-timing-function-bounce);
 
           #{$self}__nav__list__link:hover &,
           #{$self}__nav__list__link:focus &,
           #{$self}__nav__list__link:active & {
             transform: rotate(180deg) translateX(0.25rem);
           }
-        }
-
-        &__text {
-          color: $font-color-accented;
         }
       }
     }

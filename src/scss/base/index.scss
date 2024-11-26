@@ -1,0 +1,76 @@
+@use '../abstracts' as *;
+
+@forward 'grid.scss';
+@forward 'typography.scss';
+@forward 'animations.scss';
+
+:root {
+  // Colors
+  --color-primary-base: #{$primary-base};
+  --color-primary-light: #{$primary-light};
+
+  --color-secondary-base: #{$secondary-base};
+  --color-secondary-light: #{$secondary-light};
+  --color-secondary-lightest: #{$secondary-lightest};
+
+  --color-default-base: #{$default-base};
+  --color-default-dark: #{$default-dark};
+  --color-default-darker: #{$default-darker};
+  --color-default-lightest: #{$default-lightest};
+  --color-default-darkest: #{$default-darkest};
+  
+  // Fonts
+  --font-family-base: #{$font-family-base};
+  --font-family-jp: #{$font-family-jp};
+
+  --font-size-base: #{$font-size-base};
+  --font-size-jp-base: #{$font-size-jp-base};
+  --font-size-title: #{$font-size-title};
+
+  --font-weight-base: #{$font-weight-base};
+  --font-weight-interactive: #{$font-weight-interactive};
+
+  --font-color: #{$default-darkest};
+  --font-color-reverse: #{$default-lightest};
+  --font-color-accented: #{$secondary-base};
+
+  --line-height-jp: #{$line-height-jp};
+
+  // Animations
+  --transition-duration-base: #{$transition-duration-base};
+  --transition-timing-function-bas: #{$transition-timing-function-base};
+  --transition-timing-function-bounce: #{$transition-timing-function-bounce};
+  --transition-properties-base: #{$transition-properties-base};
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: var(--font-weight-base);
+}
+
+html {
+  font-size: clamp(16px, 4vw, 24px);
+}
+
+body {
+  @include gradient($position: 10% 20%, $end-color-position: 80%);
+  min-height: 100vh;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $default-darkest;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}

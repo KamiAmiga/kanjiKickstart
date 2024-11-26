@@ -27,7 +27,10 @@ const nextKanjiId = computed(
         <header>
           <h1 class="wrapper wrapper--content-center">
             <CardWrapper type="outer">
-              <span class="kanji-item__kanji text-jp" lang="jp">{{ kanjiInfos.kanji }}</span>
+              <span
+                class="kanji-item__kanji text-jp"
+                lang="jp"
+              >{{ kanjiInfos.kanji }}</span>
             </CardWrapper>
 
             <span class="kanji-item__name">{{ kanjiInfos.translation }}</span>
@@ -35,7 +38,9 @@ const nextKanjiId = computed(
         </header>
 
         <section class="wrapper kanji-item__infos">
-          <h2 class="kanji-item__infos__title">Prononciations</h2>
+          <h2 class="kanji-item__infos__title">
+            Prononciations
+          </h2>
 
           <ul class="kanji-item__infos__list">
             <li
@@ -64,13 +69,20 @@ const nextKanjiId = computed(
           </ul>
 
           <template v-if="kanjiInfos.examples.length">
-            <h2 class="kanji-item__infos__title">Exemples</h2>
+            <h2 class="kanji-item__infos__title">
+              Exemples
+            </h2>
 
             <dl class="kanji-item__infos__list">
-              <template v-for="(example, index) in kanjiInfos.examples" :key="index">
+              <template
+                v-for="(example) in kanjiInfos.examples"
+                :key="example.kanji"
+              >
                 <div class="kanji-item__infos__list__item">
                   <dt lang="jp">
-                    <div class="text-jp">{{ example.kanji }}</div>
+                    <div class="text-jp">
+                      {{ example.kanji }}
+                    </div>
                     <div>({{ example.romaji }})</div>
                   </dt>
                   <dd>
@@ -85,14 +97,12 @@ const nextKanjiId = computed(
     </div>
 
     <template v-if="nextKanjiId">
-      <NextKanjiLink :kanjiId="nextKanjiId" />
+      <NextKanjiLink :kanji-id="nextKanjiId" />
     </template>
   </div>
 </template>
 
 <style scoped lang="scss">
-@use '../scss/abstracts' as *;
-
 .kanji-item {
   margin-top: 1rem;
 
@@ -120,7 +130,7 @@ const nextKanjiId = computed(
         align-items: center;
         justify-content: space-between;
         padding: 0.5rem 0;
-        border-bottom: 1px solid $default-dark;
+        border-bottom: 1px solid var(--color-default-dark);
 
         &__kana {
           margin-right: 0.5rem;

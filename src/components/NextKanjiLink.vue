@@ -16,12 +16,12 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
-@use '../scss/abstracts' as *;
+@use '../scss/abstracts/mixins' as *;
 
 .next-kanji-link {
   $self: &;
 
-  @include shadow($levels: 6, $color: $primary-base);
+  @include shadow($levels: 6, $color: var(--color-primary-base));
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
@@ -29,18 +29,18 @@ defineProps<Props>()
   bottom: 1rem;
   right: 50%;
   z-index: 2;
-  background: radial-gradient(ellipse at top left, $primary-light 0, $primary-base 100%);
-  color: $font-color-reverse;
+  background: radial-gradient(ellipse at top left, var(--color-primary-light) 0, var(--color-primary-base) 100%);
+  color: var(--font-color-reverse);
   border-radius: 2rem;
-  transition: box-shadow $transition-properties-base;
+  transition: box-shadow var(--transition-properties-base);
   transform: translateX(min(50vw - 1rem, 30rem));
 
   &__icon {
     width: 1rem;
     margin-left: 1.25rem;
-    stroke: $font-color-reverse;
+    stroke: var(--font-color-reverse);
     transform: rotate(180deg);
-    transition: transform $transition-duration-base $transition-timing-function-bounce;
+    transition: transform var(--transition-duration-base) var(--transition-timing-function-bounce);
 
     #{$self}:hover &,
     #{$self}:focus &,
@@ -52,7 +52,7 @@ defineProps<Props>()
   &:hover,
   &:focus,
   &:active {
-    @include shadow($levels: 4, $color: $primary-base);
+    @include shadow($levels: 4, $color: var(--color-primary-base));
   }
 }
 </style>

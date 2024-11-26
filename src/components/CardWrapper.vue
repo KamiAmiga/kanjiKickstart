@@ -18,8 +18,7 @@ defineProps<Props>()
 </template>
 
 <style scoped lang="scss">
-@use '../scss/abstracts' as *;
-@use "sass:color";
+@use '../scss/abstracts/mixins' as *;
 
 .card {
   $self: &;
@@ -52,28 +51,28 @@ defineProps<Props>()
     flex-shrink: 1;
     position: relative;
     z-index: 0;
-    background-color: $default-lightest;
+    background-color: var(--color-default-lightest);
     border-radius: 0.5rem;
 
     #{$self}--interactive & {
-      border: 2px solid $default-lightest;
+      border: 2px solid var(--color-default-lightest);
       transition:
-        border $transition-properties-base,
-        background-color $transition-properties-base,
-        box-shadow $transition-properties-base;
+        border var(--transition-properties-base),
+        background-color var(--transition-properties-base),
+        box-shadow var(--transition-properties-base);
     }
 
     #{$self}--interactive:hover &,
     #{$self}--interactive:focus &,
     #{$self}--interactive:active & {
-      @include shadow($levels: 3, $color: $primary-base);
-      border: 2px solid $secondary-light;
-      background-color: $secondary-lightest;
+      @include shadow($levels: 3, $color: var(--color-primary-base));
+      border: 2px solid var(--color-secondary-light);
+      background-color: var(--color-secondary-lightest);
     }
 
     #{$self}--outer &,
     #{$self}--inner & {
-      @include shadow($inset: true, $color: color.mix($default-darker, $secondary-base), $levels: 3);
+      @include shadow($inset: true, $color: color-mix(var(--color-default-darker), var(--color-secondary-base)), $levels: 3);
     }
 
     #{$self}--outer & {
@@ -96,8 +95,8 @@ defineProps<Props>()
         z-index: -1;
         opacity: 0.6;
         background: repeating-linear-gradient(to right,
-            $default-dark,
-            $default-dark 0.4rem,
+            var(--color-default-dark),
+            var(--color-default-dark) 0.4rem,
             transparent 0.4rem,
             transparent 1rem);
         transform: translate(-50%, -50%);

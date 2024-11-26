@@ -10,4 +10,4 @@ interface KanaCategory {
 }
 
 export interface KanaItem extends YomiReading, KanaCategory {}
-export interface KanaTable extends Array<KanaItem> {}
+export type KanaTable = Array<KanaItem>
